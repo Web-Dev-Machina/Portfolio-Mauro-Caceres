@@ -3,7 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 const Hero = () => {
     return <>
     {/* responsive img */}
-    <img src="user.png" alt="billing" className="top-5 absolute w-[400px] h-[650px] md:w-0 md:h-0 -z-5 opacity-10" />
+    <img src="user.webp" alt="billing" className="top-5 absolute w-[400px] h-[650px] md:w-0 md:h-0 -z-5 opacity-10" />
 
       <section className="flex md:flex-row flex-col items-center justify-between">
         <div className="py-44 xl:px-0 sm:px-16 px-6">
@@ -38,7 +38,7 @@ const Hero = () => {
   
         <div className="flex relative">
 
-        <img src="user.png" alt="billing" className="hidden md:inline-block w-[500px] z-[5]" />
+        <img src="user.webp" alt="billing" className="hidden md:inline-block w-[500px] z-[5]" />
           {/* gradients*/}
           <div className="hidden md:inline-block rounded-full bg-red-400 absolute w-96 h-96 blur-[300px] right-0"/>
           <div className="hidden md:inline-block rounded-full bg-purple-600 absolute w-96 h-96 blur-[300px] bottom-0 left-0"/>
