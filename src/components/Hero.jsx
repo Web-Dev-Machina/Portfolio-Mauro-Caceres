@@ -6,8 +6,9 @@ const Hero = () => {
         <div className="xl:px-0 sm:px-16 px-6">
   
           <div className="text-left">
-            <h1 className="font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-              ¡Hola! Soy&nbsp;
+            <h1 className="font-poppins font-semibold text-[50px] sm:text-[60px] md:text-[52px] lg:text-[70px] xl:text-[75px] text-white leading-[75px] lg:leading-[100px]">
+              ¡Hola! Soy
+              <br/>
               <TypeAnimation className='text-purple-900'
                 sequence={[
                     'Mauro',
@@ -24,7 +25,7 @@ const Hero = () => {
             </h1>
           
 
-          <p className="max-w-[470px] mt-5 text-white">
+          <p className="max-w-[470px] md:max-w-[550px] mt-5 text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt labore quidem cum ullam unde nobis laborum tempora officia sint at perspiciatis, debitis perferendis ad repellat, veniam laudantium expedita minima iure?
           </p>
         </div>
