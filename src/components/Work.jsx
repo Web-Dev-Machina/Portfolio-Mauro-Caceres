@@ -2,12 +2,12 @@ const Work = () => {
   return <>
     <section>
       <div className="items-center">
-        <h2 className="py-16 font-poppins font-semibold text-[50px] sm:text-[60px] md:text-[52px] lg:text-[70px] xl:text-[75px] text-white leading-[75px] lg:leading-[100px]">
+        <h2 className="pt-10 pb-16 font-poppins font-semibold text-[40px] sm:text-[60px] md:text-[44px] lg:text-[60px] xl:text-[65px] text-white leading-[75px] lg:leading-[100px]">
           Mis <span className="text-red-500 red-glow">Proyectos</span>
         </h2>
       </div>
 
-      <div className="flex flex-col xl:flex-row justify-between px-4 mb-32">
+      <div className="flex flex-col xl:flex-row justify-between px-4 mb-32 gap-y-12 items-center">
 
         <div className="max-w-sm rounded  shadow-lg card-glow1">
         <img className="w-full" src="card1.webp" alt="Portfolio-3D"/>
