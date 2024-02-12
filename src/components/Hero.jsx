@@ -28,20 +28,15 @@ const Hero = () => {
             </h1>
           
 
-          <p className="max-w-[470px] md:max-w-[550px] mt-5 text-white font-light text-lg leading-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt labore quidem cum ullam unde nobis laborum tempora officia sint at perspiciatis, debitis perferendis ad repellat, veniam laudantium expedita minima iure?
-          </p>
-          <div className='text-red-500 space-x-5 space-y-10'>
-            <button><i className="fa-brands fa-github red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></i></button>
-            <button><i className="fa-brands fa-linkedin red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></i></button>
-            <button><i className="fa-brands fa-whatsapp red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></i></button>
+            <p className="max-w-[470px] md:max-w-[550px] mt-5 text-white font-light text-lg leading-6">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt labore quidem cum ullam unde nobis laborum tempora officia sint at perspiciatis, debitis perferendis ad repellat, veniam laudantium expedita minima iure?
+            </p>
+            <div className='text-red-500 space-x-5 space-y-10'>
+              <button><i className="fa-brands fa-github red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></i></button>
+              <button><i className="fa-brands fa-linkedin red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></i></button>
+              <button><i className="fa-brands fa-whatsapp red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></i></button>
+            </div>
           </div>
-        </div>
-
-        {/* responsive gradients
-        <div className="rounded-full bg-red-400 absolute w-96 h-96 md:hidden blur-[300px] top-0 right-0 opacity-60"/>
-        <div className="rounded-full bg-purple-800 absolute w-96 h-96 md:hidden blur-[300px] top-0 right-0 opacity-60"/>
-      */}
         </div>
   
         <div className="flex relative">
