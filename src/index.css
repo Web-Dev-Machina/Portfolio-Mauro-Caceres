@@ -7,9 +7,6 @@
   margin: 0 auto;
   text-align: center;
 }
-i {
-  font-size: 1.7rem;
-}
 body {
   background-color: #090015;
 }
@@ -23,32 +20,13 @@ body {
   text-shadow:0px 0px 50px #ef4444;
 }
 
-.card-glow1 {
+.card-glow {
   transition: all 0.5s ease-out
 }
-.card-glow1:hover {
+.card-glow:hover {
   background-color: rgb(126 34 206 0.1);
   backdrop-filter: blur(4px);
-  filter: hue-rotate(50deg);
-  box-shadow: 0 20px 60px -25px rgba(0,115,255,0.925);
-}
-
-.card-glow2 {
-  transition: all 0.5s ease-out
-}
-.card-glow2:hover {
-  background-color: rgb(29 78 216 0.1);
-  backdrop-filter: blur(4px);
-  filter: hue-rotate(55deg);
-  box-shadow: 0 20px 60px -25px rgba(239,68,68,0.925);
-}
-
-.card-glow3 {
-  transition: all 0.5s ease-out
-}
-.card-glow3:hover {
-  background-color: rgb(126 34 206 0.1);
-  backdrop-filter: blur(4px);
-  filter: hue-rotate(-170deg);
-  box-shadow: 0 20px 60px -25px rgba(251,191,36,0.925);
+  
+  box-shadow: 0 20px 60px -25px rgba(244, 63, 94, 0.925);
+  
 }

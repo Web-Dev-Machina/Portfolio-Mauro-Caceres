@@ -7,7 +7,7 @@ const Hero = () => {
 
       <section className="flex md:flex-row flex-col items-center justify-between">
 
-        <div className="py-40 xl:px-0 sm:px-16 px-6">
+        <div className="py-40 xl:px-0 sm:px-16 px-6 z-[1]">
           <div className="text-left">
             <h1 className="font-poppins font-semibold text-[50px] sm:text-[60px] md:text-[52px] lg:text-[70px] xl:text-[75px] text-white leading-[75px] lg:leading-[100px]">
               ¡Hola! Soy
@@ -28,7 +28,7 @@ const Hero = () => {
             </h1>
           
 
-          <p className="max-w-[470px] md:max-w-[550px] mt-5 text-white">
+          <p className="max-w-[470px] md:max-w-[550px] mt-5 text-white font-light text-lg leading-6">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt labore quidem cum ullam unde nobis laborum tempora officia sint at perspiciatis, debitis perferendis ad repellat, veniam laudantium expedita minima iure?
           </p>
           <div className='text-red-500 space-x-5 space-y-10'>
