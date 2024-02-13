@@ -1,15 +1,15 @@
 const Work = () => {
   return <>
-    <section>
-      <div className="items-center">
-        <h2 className="pt-10 pb-16 font-poppins font-semibold text-[40px] sm:text-[60px] md:text-[44px] lg:text-[60px] xl:text-[65px] text-white leading-[75px] lg:leading-[100px]">
+    <section className=" mx-auto relative px-4 pb-32">
+      <div className="items-center px-4 max-w-screen-xl mx-auto">
+        <h2 className="py-16 font-poppins font-semibold text-[40px] sm:text-[60px] md:text-[44px] lg:text-[60px] xl:text-[65px] text-white leading-[75px] lg:leading-[100px]">
           Mis <span className="text-red-500 red-glow">Proyectos</span>
         </h2>
       </div>
 
-      <div className="flex flex-col xl:flex-row justify-between px-4 mb-32 gap-y-12 items-center">
+      <div className="flex flex-col xl:flex-row justify-between gap-y-12 items-center max-w-screen-xl mx-auto">
 
-        <div className="max-w-sm rounded  shadow-lg card-glow">
+        <div className="max-w-sm rounded  shadow-lg card-glow bg-purple-700/5 backdrop-blur-xl">
         <img className="w-full" src="card1.webp" alt="Portfolio-3D"/>
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2 text-white">3D Website Portfolio</div>
@@ -18,9 +18,9 @@ const Work = () => {
           </p>
         </div>
         <div className="px-4 pt-4 pb-2 flex">
-          <span className="inline-block bg-purple-700/10 backdrop-blur-sm rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
-          <span className="inline-block bg-purple-700/10 backdrop-blur-sm rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#threejs</span>
-          <span className="inline-block bg-purple-700/10 backdrop-blur-sm rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
+          <span className="inline-block bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
+          <span className="inline-block bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#threejs</span>
+          <span className="inline-block bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
         </div>
       </div>
           
@@ -34,10 +34,10 @@ const Work = () => {
           </p>
         </div>
         <div className="px-4 pt-4 pb-2 flex">
-          <span className="inline-block bg-purple-700/10 backdrop-blur-sm rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
-          <span className="inline-block bg-purple-700/10 backdrop-blur-sm rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#threejs</span>
-          <span className="inline-block bg-purple-700/10 backdrop-blur-sm rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#spline</span>
-          <span className="inline-block bg-purple-700/10 backdrop-blur-sm rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
+          <span className="inline-block bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
+          <span className="inline-block bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#threejs</span>
+          <span className="inline-block bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#spline</span>
+          <span className="inline-block bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
         </div>
       </div>
 
@@ -50,13 +50,14 @@ const Work = () => {
           </p>
         </div>
         <div className="px-4 pt-4 pb-2 flex">
-          <span className="inline-block bg-purple-700/10 backdrop-blur-sm rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
-          <span className="inline-block bg-purple-700/10 backdrop-blur-sm rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
-          <span className="inline-block bg-purple-700/10 backdrop-blur-sm rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#flowbite</span>
+          <span className="inline-block bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
+          <span className="inline-block bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
+          <span className="inline-block bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#flowbite</span>
         </div>
       </div>
 
     </div>
+    <div className="rounded-full bg-purple-700 absolute w-60 h-60 blur-[300px] left-[-1] bottom-0 -z-10"/>
     </section>
   </>;
 };

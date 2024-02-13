@@ -5,9 +5,9 @@ const Hero = () => {
     {/* responsive img */}
     <img src="user.webp" alt="user" className="top-5 absolute w-[400px] h-[650px] md:w-0 md:h-0 -z-5 opacity-10" />
 
-      <section className="flex md:flex-row flex-col items-center justify-between">
+      <section className="px-4 flex md:flex-row flex-col items-center justify-between max-w-screen-2xl mx-auto">
 
-        <div className="py-40 xl:px-0 sm:px-16 px-6 z-[1]">
+        <div className="py-44 z-[1]">
           <div className="text-left">
             <h1 className="font-poppins font-semibold text-[50px] sm:text-[60px] md:text-[52px] lg:text-[70px] xl:text-[75px] text-white leading-[75px] lg:leading-[100px]">
               ¡Hola! Soy
@@ -41,7 +41,7 @@ const Hero = () => {
   
         <div className="flex relative">
 
-        <img src="user.webp" alt="user" className="hidden md:inline-block w-[500px] z-[5]" />
+        <img src="user.webp" alt="user" className="hidden md:inline-block w-[500px] xl:pr-16 z-[5]" />
           {/* gradients*/}
           <div className="hidden md:inline-block rounded-full bg-red-400 absolute w-96 h-96 blur-[300px] right-0"/>
           <div className="hidden md:inline-block rounded-full bg-purple-600 absolute w-96 h-96 blur-[300px] bottom-0 left-0"/>
