@@ -57,7 +57,7 @@ const Work = () => {
       </div>
 
     </div>
-    <div className="rounded-full bg-purple-700 absolute w-60 h-60 blur-[300px] left-[-1] bottom-0 -z-10"/>
+    <div className="rounded-full bg-purple-700 absolute w-96 h-96 blur-[300px] left-[-1] bottom-0 -z-10"/>
     </section>
   </>;
 };
