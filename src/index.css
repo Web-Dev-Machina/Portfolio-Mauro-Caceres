@@ -20,6 +20,7 @@ body {
   color: #fecaca;
   text-shadow:0px 0px 50px #ef4444;
 }
+
 /* Animation Cards */
 .card-glow {
   transition: all 0.5s ease-out
@@ -27,19 +28,16 @@ body {
 .card-glow:hover {
   background-color: rgb(126 34 206 0.1);
   backdrop-filter: blur(1000px);
-  
   box-shadow: 0 20px 60px -25px rgba(244, 63, 94, 0.925);
-  
 }
+
 /* Animation Image Cards */
-.img-child{
-  transition: all 0.5s ease-out
-}
 .card-glow:hover .img-child {
   z-index: -1;
   background-color: black;
   opacity: 0.5;
 }
+
 /* Responsive Animation Button Cards*/
  .button-child {
   transition: all 0.5s ease-out
@@ -49,6 +47,7 @@ body {
   opacity:1;
   z-index:2;
  }
+ 
 /* Responsive Animation Image Cards*/
 .card-glow:hover .img-resp-child {
   background-color: black;
