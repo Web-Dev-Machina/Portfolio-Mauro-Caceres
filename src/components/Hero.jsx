@@ -32,16 +32,16 @@ const Hero = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt labore quidem cum ullam unde nobis laborum tempora officia sint at perspiciatis, debitis perferendis ad repellat, veniam laudantium expedita minima iure?
             </p>
             <div className='text-red-500 space-x-5 space-y-10'>
-              <button><i className="fa-brands fa-github red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></i></button>
-              <button><i className="fa-brands fa-linkedin red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></i></button>
-              <button><i className="fa-brands fa-whatsapp red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></i></button>
+              <button><div className="fa-brands fa-github red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+              <button><div className="fa-brands fa-linkedin red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+              <button><div className="fa-brands fa-whatsapp red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
             </div>
           </div>
         </div>
   
         <div className="flex relative">
 
-        <img src="user.webp" alt="user" className="hidden md:inline-block w-[500px] xl:pr-16 z-[5]" />
+        <img src="user.webp" alt="user" className="hidden md:inline-block w-[500px] md:w-[550px] xl:pr-16 z-[5]" />
           {/* gradients*/}
           <div className="hidden md:inline-block rounded-full bg-red-400 absolute w-96 h-96 blur-[300px] right-0"/>
           <div className="hidden md:inline-block rounded-full bg-purple-600 absolute w-96 h-96 blur-[300px] bottom-0 left-0"/>

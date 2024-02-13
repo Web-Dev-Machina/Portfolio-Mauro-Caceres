@@ -11,6 +11,7 @@ body {
   background-color: #090015;
 }
 
+/* Animation Red glow */
 .red-glow {
   color: #ef4444;
   transition: all 0.5s ease-out;
@@ -19,7 +20,7 @@ body {
   color: #fecaca;
   text-shadow:0px 0px 50px #ef4444;
 }
-
+/* Animation Cards */
 .card-glow {
   transition: all 0.5s ease-out
 }
@@ -30,3 +31,26 @@ body {
   box-shadow: 0 20px 60px -25px rgba(244, 63, 94, 0.925);
   
 }
+/* Animation Image Cards */
+.img-child{
+  transition: all 0.5s ease-out
+}
+.card-glow:hover .img-child {
+  z-index: -1;
+  background-color: black;
+  opacity: 0.5;
+}
+/* Responsive Animation Button Cards*/
+ .button-child {
+  transition: all 0.5s ease-out
+ }
+ .card-glow:hover .button-child {
+  display:flex;
+  opacity:1;
+  z-index:2;
+ }
+/* Responsive Animation Image Cards*/
+.card-glow:hover .img-resp-child {
+  background-color: black;
+  opacity: 0.85;
+ }

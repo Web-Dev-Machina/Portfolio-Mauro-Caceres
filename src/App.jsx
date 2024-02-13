@@ -8,14 +8,12 @@ function App() {
 
   return <>
   <Switch/>
-      <div className="relative z-0">
-        
+      <div className="relative z-0">        
         <StarCanvas/>
-        <Navbar/>
         <Hero/>
       </div>
       <Work/>
-      
+      <Navbar/>
     </>
 }
 
