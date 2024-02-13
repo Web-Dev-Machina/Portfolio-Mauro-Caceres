@@ -13,8 +13,8 @@ const Work = () => {
         <div className="flex rounded-md overflow-hidden mx-auto card-glow z-0">
           <div className="img-resp-child flex flex-row items-center justify-center h-auto w-[350px] md:w-[400px] lg:[500px] bg-cover text-center bg-center overflow-hidden" style={{backgroundImage: "url('card1.webp')"}}>
             <div className="button-child gap-12 hidden">
-              <button><div className="fa-brands fa-github red-glow bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
-              <button><div className="fa-solid fa-play red-glow bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+              <button><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+              <button><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
             </div>
           </div>
           <div className="flex flex-col bg-purple-700/10 backdrop-blur-sm p-4 justify-between leading-normal py-5 w-auto">
@@ -23,9 +23,9 @@ const Work = () => {
               <p className="text-gray-400 max-w-[470px] items-center justify-center font-light text-lg leading-6 text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
             </div>
             <div className="flex">
-              <span className="inline-block red-glow bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
-              <span className="inline-block red-glow bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#threejs</span>
-              <span className="inline-block red-glow bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
+              <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
+              <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#threejs</span>
+              <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
             </div>
           </div>
         </div>
@@ -33,8 +33,8 @@ const Work = () => {
         <div className="flex rounded-md overflow-hidden mx-auto card-glow z-0">
           <div className="img-resp-child flex flex-row items-center justify-center gap-12 h-auto w-[350px] md:w-[400px] lg:[500px] bg-cover text-center bg-center overflow-hidden" style={{backgroundImage: "url('card2.webp')"}}>
             <div className="button-child gap-12 hidden">
-              <button><div className="fa-brands fa-github red-glow bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
-              <button><div className="fa-solid fa-play red-glow bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+              <button><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+              <button><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
             </div>
           </div>
           <div className="flex flex-col bg-purple-700/10 backdrop-blur-sm p-4 justify-between leading-normal py-5 w-auto">
@@ -43,9 +43,9 @@ const Work = () => {
               <p className="text-gray-400 max-w-[470px] items-center justify-center font-light text-lg leading-6 text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
             </div>
             <div className="flex gap-x-1.5">
-              <span className="inline-block red-glow bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
-              <span className="inline-block red-glow bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#threejs</span>
-              <span className="inline-block red-glow bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#spline</span>
+              <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
+              <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#threejs</span>
+              <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#spline</span>
             </div>
           </div>
         </div>
@@ -53,8 +53,8 @@ const Work = () => {
         <div className="flex rounded-md overflow-hidden mx-auto card-glow z-0">
           <div className="img-resp-child flex flex-row items-center justify-center gap-12 h-auto w-[350px] md:w-[400px] lg:[500px] bg-cover text-center bg-center overflow-hidden" style={{backgroundImage: "url('card3.webp')"}}>
             <div className="button-child gap-12 hidden">
-              <button><div className="fa-brands fa-github red-glow bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
-              <button><div className="fa-solid fa-play red-glow bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+              <button><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+              <button><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
             </div>
           </div>
           <div className="flex flex-col bg-purple-700/10 backdrop-blur-sm p-4 justify-between leading-normal py-5 w-auto">
@@ -63,9 +63,9 @@ const Work = () => {
               <p className="text-gray-400 max-w-[470px] items-center justify-center font-light text-lg leading-6 text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
             </div>
             <div className="flex gap-x-1">
-              <span className="inline-block red-glow bg-purple-700/10 backdrop-blur-xl rounded-full px-2 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
-              <span className="inline-block red-glow bg-purple-700/10 backdrop-blur-xl rounded-full px-2 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
-              <span className="inline-block red-glow bg-purple-700/10 backdrop-blur-xl rounded-full px-2 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#flowbite</span>
+              <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-2 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
+              <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-2 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
+              <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-2 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#flowbite</span>
             </div>
           </div>
         </div>
@@ -79,8 +79,8 @@ const Work = () => {
           <div className="relative">
 
             <div className="flex justify-center gap-x-10 items-center py-14">
-              <button><div className="fa-brands fa-github red-glow bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
-              <button><div className="fa-solid fa-play red-glow bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+              <button><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+              <button><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
             </div>
 
             <img className="absolute top-0 img-child" src="card1.webp" alt="Portfolio-3D"/>
@@ -93,9 +93,9 @@ const Work = () => {
           </p>
         </div>
         <div className="px-4 pt-4 pb-2 flex">
-          <span className="inline-block red-glow bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
-          <span className="inline-block red-glow bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#threejs</span>
-          <span className="inline-block red-glow bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
+          <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
+          <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#threejs</span>
+          <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
         </div>
       </div>
           
@@ -104,8 +104,8 @@ const Work = () => {
       <div className="relative">
 
         <div className="flex justify-center gap-x-10 items-center py-14">
-          <button><div className="fa-brands fa-github red-glow bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
-          <button><div className="fa-solid fa-play red-glow bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+          <button><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+          <button><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
         </div>
 
         <img className="absolute top-0 img-child" src="card2.webp" alt="Personal Portfolio"/>
@@ -118,9 +118,9 @@ const Work = () => {
           </p>
         </div>
         <div className="px-4 pt-4 pb-2 flex">
-          <span className="inline-block red-glow bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
-          <span className="inline-block red-glow bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#threejs</span>
-          <span className="inline-block red-glow bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#spline</span>
+          <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
+          <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#threejs</span>
+          <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#spline</span>
         </div>
       </div>
 
@@ -128,8 +128,8 @@ const Work = () => {
         <div className="relative">
 
           <div className="flex justify-center gap-x-10 items-center py-14">
-            <button><div className="fa-brands fa-github red-glow bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
-            <button><div className="fa-solid fa-play red-glow bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+            <button><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+            <button><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
           </div>
 
           <img className="absolute top-0 img-child" src="card3.webp" alt="FGA Consulting"/>
@@ -142,9 +142,9 @@ const Work = () => {
           </p>
         </div>
         <div className="px-4 pt-4 pb-2 flex">
-          <span className="inline-block red-glow bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
-          <span className="inline-block red-glow bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
-          <span className="inline-block red-glow bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#flowbite</span>
+          <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
+          <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
+          <span className="inline-block hover:text-white hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#flowbite</span>
         </div>
       </div>
 
