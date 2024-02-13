@@ -9,7 +9,7 @@ const Work = () => {
 
       <div className="flex flex-col xl:flex-row justify-between gap-y-12 items-center max-w-screen-xl mx-auto">
 
-        <div className="max-w-sm rounded  shadow-lg card-glow bg-purple-700/5 backdrop-blur-xl">
+        <div className="max-w-sm rounded shadow-lg card-glow">
         <img className="w-full" src="card1.webp" alt="Portfolio-3D"/>
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2 text-white">3D Website Portfolio</div>
@@ -57,7 +57,11 @@ const Work = () => {
       </div>
 
     </div>
-    <div className="rounded-full bg-purple-700 absolute w-96 h-96 blur-[300px] left-[-1] bottom-0 -z-10"/>
+    <div className="rounded-full bg-purple-600 absolute w-72 h-72 blur-[250px] left-0 bottom-32 -z-10"/>
+    <div className="rounded-full bg-red-600 absolute w-60 h-60 blur-[250px] left-0 top-44 -z-10"/>
+
+    <div className="rounded-full bg-red-600 absolute w-96 h-96 blur-[300px] end-0 bottom-[-1] -z-10"/>
+    <div className="rounded-full bg-purple-600 absolute w-96 h-96 blur-[300px] end-0 bottom-32 -z-10"/>
     </section>
   </>;
 };
