@@ -1,5 +1,3 @@
-import ComputerSpline from "./ComputerSpline";
-
 const Profile = () => {
   return <>
   
@@ -10,7 +8,7 @@ const Profile = () => {
         </h2>
     </div>
 
-    <ComputerSpline/>
+    
 
   </section>
   </>;
