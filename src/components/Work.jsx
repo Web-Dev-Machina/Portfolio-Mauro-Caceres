@@ -1,7 +1,7 @@
 const Work = () => {
   return <>
     <section className="relative px-4">
-      <div className="flex px-4 max-w-screen-xl mx-auto">
+      <div className="flex max-w-screen-xl mx-auto">
         <h2 className="py-16 font-poppins font-semibold text-[40px] sm:text-[60px] md:text-[44px] lg:text-[60px] xl:text-[65px] text-white leading-[75px] lg:leading-[100px]">
           Mis <span className="text-red-500 red-glow">Proyectos</span>
         </h2>
