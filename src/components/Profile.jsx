@@ -1,3 +1,5 @@
+import EarthCanvas from "../canvas/ComputerCanvas";
+
 const Profile = () => {
   return <>
   
@@ -10,10 +12,12 @@ const Profile = () => {
 
     <div className="flex mx-auto justify-between max-w-screen-xl">
 
-      <div></div>
+      <div>lorem</div>
 
-      <div className="">
-      
+      <div className="h-96 w-96">
+
+      <EarthCanvas/>
+
       </div>
 
     </div>
