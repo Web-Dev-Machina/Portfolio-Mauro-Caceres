@@ -52,6 +52,7 @@ const EarthCanvas = () => {
       </Suspense>
     </Canvas>
   )
+  
 }
 
 export default EarthCanvas
