@@ -6,7 +6,6 @@ Source: https://sketchfab.com/3d-models/asus-rog-zephyrus-duo-gx551qm-2c7f8c0e2b
 Title: Asus ROG Zephyrus Duo GX551QM
 */
 
-import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
 export function Model(props) {
@@ -151,6 +150,7 @@ export function Model(props) {
         geometry={nodes.Object_79.geometry}
         material={materials.plastichead}
       />
+      
     </group>
   );
 }
