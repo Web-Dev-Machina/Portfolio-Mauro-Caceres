@@ -150,7 +150,6 @@ export function Model(props) {
         geometry={nodes.Object_79.geometry}
         material={materials.plastichead}
       />
-      
     </group>
   );
 }
