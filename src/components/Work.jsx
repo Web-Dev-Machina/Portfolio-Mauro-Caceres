@@ -83,7 +83,7 @@ const Work = () => {
               <button><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
             </div>
 
-            <img className="absolute top-0 img-child" src="" alt="Portfolio-3D"/>
+            <img className="absolute top-0 img-child" src="card1.webp" alt="Portfolio-3D"/>
           </div>
 
         <div className="px-6 py-4">
@@ -108,7 +108,7 @@ const Work = () => {
           <button><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
         </div>
 
-        <img className="absolute top-0 img-child" src="" alt="Personal Portfolio"/>
+        <img className="absolute top-0 img-child" src="card2.webp" alt="Personal Portfolio"/>
       </div>
 
       <div className="px-6 py-4">
@@ -132,7 +132,7 @@ const Work = () => {
             <button><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
           </div>
 
-          <img className="absolute top-0 img-child" src="" alt="FGA Consulting"/>
+          <img className="absolute top-0 img-child" src="card3.webp" alt="FGA Consulting"/>
         </div>
 
         <div className="px-6 py-4">
