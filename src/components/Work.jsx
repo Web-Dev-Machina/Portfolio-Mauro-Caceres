@@ -11,7 +11,7 @@ const Work = () => {
       <div className="hidden sm:flex xl:hidden flex-col justify-between gap-y-12 items-center max-w-screen-xl mx-auto">
 
         <div className="flex rounded-md overflow-hidden mx-auto card-glow z-0">
-          <div className="img-resp-child flex flex-row items-center justify-center h-auto w-[350px] md:w-[400px] lg:[500px] bg-cover text-center bg-center overflow-hidden" style={{backgroundImage: "url('card1.webp')"}}>
+          <div className="img-resp-child flex flex-row items-center justify-center h-auto w-[350px] md:w-[400px] lg:[500px] bg-cover text-center bg-center overflow-hidden" >
             <div className="button-child gap-12 hidden">
               <button><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
               <button><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
@@ -31,7 +31,7 @@ const Work = () => {
         </div>
 
         <div className="flex rounded-md overflow-hidden mx-auto card-glow z-0">
-          <div className="img-resp-child flex flex-row items-center justify-center gap-12 h-auto w-[350px] md:w-[400px] lg:[500px] bg-cover text-center bg-center overflow-hidden" style={{backgroundImage: "url('card2.webp')"}}>
+          <div className="img-resp-child flex flex-row items-center justify-center gap-12 h-auto w-[350px] md:w-[400px] lg:[500px] bg-cover text-center bg-center overflow-hidden" >
             <div className="button-child gap-12 hidden">
               <button><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
               <button><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
@@ -51,7 +51,7 @@ const Work = () => {
         </div>
 
         <div className="flex rounded-md overflow-hidden mx-auto card-glow z-0">
-          <div className="img-resp-child flex flex-row items-center justify-center gap-12 h-auto w-[350px] md:w-[400px] lg:[500px] bg-cover text-center bg-center overflow-hidden" style={{backgroundImage: "url('card3.webp')"}}>
+          <div className="img-resp-child flex flex-row items-center justify-center gap-12 h-auto w-[350px] md:w-[400px] lg:[500px] bg-cover text-center bg-center overflow-hidden" >
             <div className="button-child gap-12 hidden">
               <button><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
               <button><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
