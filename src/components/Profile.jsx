@@ -1,4 +1,4 @@
-import EarthCanvas from "../canvas/ComputerCanvas";
+import ComputerCanvas from "../canvas/ComputerCanvas";
 
 const Profile = () => {
   return <>
@@ -10,14 +10,16 @@ const Profile = () => {
         </h2>
     </div>
 
-    <div className="flex mx-auto justify-between max-w-screen-xl">
+    <div className="flex flex-col lg:flex-row mx-auto justify-between items-center max-w-screen-xl">
 
-      <div>lorem</div>
+      <div>
+        <p className="max-w-[470px] md:max-w-[550px] text-white font-light text-lg leading-6 text-left">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt labore quidem cum ullam unde nobis laborum tempora officia sint at perspiciatis, debitis perferendis ad repellat, veniam laudantium expedita minima iure?
+        </p>
+      </div>
 
-      <div className="h-96 w-96">
-
-      <EarthCanvas/>
-
+      <div className="h-96">
+        <ComputerCanvas/>
       </div>
 
     </div>
