@@ -23,6 +23,7 @@ const Profile = () => {
       </div>
 
     </div>
+    
     {/*
       <img src="https://skillicons.dev/icons?i=html,css,js,react,vite,git,nodejs,express,firebase,netlify,vercel,tailwind,sass,bootstrap,threejs&perline=5" />
     */}
