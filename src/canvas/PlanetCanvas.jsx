@@ -1,16 +1,15 @@
 import { Suspense } from 'react'
 import { Canvas } from "@react-three/fiber"
-import { OrbitControls, useGLTF } from "@react-three/drei"
-import { Html, useProgress} from "@react-three/drei"
+import { OrbitControls, useGLTF, Html, useProgress } from "@react-three/drei"
 
 const Planet = () => {
-  const computer = useGLTF("./planet/planet.glb")
+  const planet = useGLTF("./planet/planet.glb")
 
   return (
     <primitive
-      object={computer.scene}
-      scale={3.5}
-      position-y={-1}
+      object={planet.scene}
+      scale={3}
+      position-y={0}
       rotation-y={0}
     />
   )
