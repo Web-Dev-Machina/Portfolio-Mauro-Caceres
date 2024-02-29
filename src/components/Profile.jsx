@@ -4,7 +4,7 @@ const Profile = () => {
   
   <section className="px-4 ">
     <div className="flex max-w-screen-xl mx-auto">
-        <h2 className="py-16 font-poppins font-semibold text-[40px] sm:text-[60px] md:text-[44px] lg:text-[60px] xl:text-[65px] text-white leading-[75px] lg:leading-[100px]">
+    <h2 className="py-24 font-poppins font-semibold text-[30px] sm:text-[40px] md:text-[33px] lg:text-[40px] xl:text-[50px] text-white leading-[75px] lg:leading-[100px]">
           Mi <span className="text-red-500 red-glow">Experiencia</span>
         </h2>
     </div>
@@ -17,9 +17,9 @@ const Profile = () => {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 py-10 max-w-screen-md mx-auto">
 
-        <div className="bg-purple-950/45 text-white backdrop-blur-sm rounded-2xl">
+        <div className="bg-purple-950/30 text-white backdrop-blur-2xl rounded-2xl">
 
-          <h3 className="py-2 font-poppins font-semibold text-[30px] sm:text-[45px] md:text-[35px] lg:text-[45px] xl:text-[50px] text-red-500"><span className="red-glow">Front-End</span></h3>
+          <h3 className="py-2 font-poppins font-semibold text-[20px] sm:text-[30px] md:text-[24px] lg:text-[30px] xl:text-[35px] text-red-500"><span className="red-glow">Front-End</span></h3>
 
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-3 mx-auto gap-5 py-4">
 
@@ -71,9 +71,9 @@ const Profile = () => {
           </div>
         </div>  
 
-        <div className="bg-purple-950/45 text-white backdrop-blur-sm rounded-2xl">
+        <div className="bg-purple-950/30 text-white backdrop-blur-2xl rounded-2xl">
 
-          <h3 className="py-2 font-poppins font-semibold text-[30px] sm:text-[45px] md:text-[35px] lg:text-[45px] xl:text-[50px] text-red-500"><span className="red-glow">Back-End</span></h3>
+          <h3 className="py-2 font-poppins font-semibold text-[20px] sm:text-[30px] md:text-[24px] lg:text-[30px] xl:text-[35px] text-red-500"><span className="red-glow">Back-End</span></h3>
 
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-3 mx-auto gap-5 py-4">
 
@@ -103,11 +103,11 @@ const Profile = () => {
             </div>
 
             </div>
-          </div>
+        </div>
 
-        <div className="bg-purple-950/45 text-white backdrop-blur-sm rounded-2xl">
+        <div className="bg-purple-950/30 text-white backdrop-blur-2xl rounded-2xl">
 
-          <h3 className="py-2 font-poppins font-semibold text-[30px] sm:text-[45px] md:text-[35px] lg:text-[45px] xl:text-[50px] text-red-500"><span className="red-glow">Herramientas</span></h3>
+          <h3 className="py-2 font-poppins font-semibold text-[20px] sm:text-[30px] md:text-[24px] lg:text-[30px] xl:text-[35px] text-red-500"><span className="red-glow">Herramientas</span></h3>
 
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-3 mx-auto gap-5 py-4">
 
@@ -149,9 +149,9 @@ const Profile = () => {
           </div>
         </div> 
 
-        <div className="bg-purple-950/45 text-white backdrop-blur-sm rounded-2xl">
+        <div className="bg-purple-950/30 text-white backdrop-blur-2xl rounded-2xl">
 
-          <h3 className="py-2 font-poppins font-semibold text-[30px] sm:text-[45px] md:text-[35px] lg:text-[45px] xl:text-[50px] text-red-500"><span className="red-glow">Aprendiendo</span></h3>
+          <h3 className="py-2 font-poppins font-semibold text-[20px] sm:text-[30px] md:text-[24px] lg:text-[30px] xl:text-[35px] text-red-500"><span className="red-glow">Aprendiendo</span></h3>
 
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-3 mx-auto gap-5 py-4">
 

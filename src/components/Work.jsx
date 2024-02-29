@@ -2,7 +2,7 @@ const Work = () => {
   return <>
     <section className="relative px-4">
       <div className="flex max-w-screen-xl mx-auto">
-        <h2 className="py-16 font-poppins font-semibold text-[40px] sm:text-[60px] md:text-[44px] lg:text-[60px] xl:text-[65px] text-white leading-[75px] lg:leading-[100px]">
+        <h2 className="py-24 font-poppins font-semibold text-[30px] sm:text-[40px] md:text-[33px] lg:text-[40px] xl:text-[50px] text-white leading-[75px] lg:leading-[100px]">
           Mis <span className="text-red-500 red-glow">Proyectos</span>
         </h2>
       </div>
