@@ -59,7 +59,7 @@ const Work = () => {
           </div>
           <div className="flex flex-col bg-purple-700/10 backdrop-blur-sm p-4 justify-between leading-normal py-5 w-auto">
             <div className="mb-8">
-              <div className="text-white font-bold text-xl mb-2">FGA Consulting</div>
+              <div className="text-white font-bold text-xl mb-2">Landing Page</div>
               <p className="text-gray-400 max-w-[470px] items-center justify-center font-light text-lg leading-6 text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
             </div>
             <div className="flex gap-x-1">
@@ -136,7 +136,7 @@ const Work = () => {
         </div>
 
         <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2 text-white">FGA Consulting</div>
+          <div className="font-bold text-xl mb-2 text-white">Landing Page</div>
           <p className="text-gray-400 font-light text-lg leading-6">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
           </p>
