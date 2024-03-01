@@ -5,15 +5,12 @@ const Profile = () => {
   <section className="px-4 ">
     <div className="flex max-w-screen-xl mx-auto">
     <h2 className="py-24 font-poppins font-semibold text-[30px] sm:text-[40px] md:text-[33px] lg:text-[40px] xl:text-[50px] text-white leading-[75px] lg:leading-[100px]">
-          Mi <span className="text-red-500 red-glow">Experiencia</span>
+          Mis <span className="text-red-500 red-glow">Habilidades</span>
         </h2>
     </div>
 
     <div className=" max-w-screen-xl mx-auto">
 
-      <p className="max-w-[470px] md:max-w-[550px] text-white font-light text-lg leading-6 text-left">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt labore quidem cum ullam unde nobis laborum tempora officia sint at perspiciatis, debitis perferendis ad repellat, veniam laudantium expedita minima iure?
-      </p>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 py-10 max-w-screen-md mx-auto">
 

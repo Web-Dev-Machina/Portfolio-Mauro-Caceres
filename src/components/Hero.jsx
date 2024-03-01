@@ -7,7 +7,7 @@ const Hero = () => {
 
       <section className="px-4 flex md:flex-row flex-col items-center justify-between max-w-screen-2xl mx-auto">
 
-        <div className="py-44 z-[1]">
+        <div className="py-48 z-[1]">
           <div className="text-left">
             <h1 className="font-poppins font-semibold text-[50px] sm:text-[60px] md:text-[52px] lg:text-[70px] xl:text-[75px] text-white leading-[75px] lg:leading-[100px]">
               ¡Hola! Soy
@@ -29,7 +29,11 @@ const Hero = () => {
           
 
             <p className="max-w-[470px] md:max-w-[550px] mt-5 text-white font-light text-lg leading-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt labore quidem cum ullam unde nobis laborum tempora officia sint at perspiciatis, debitis perferendis ad repellat, veniam laudantium expedita minima iure?
+              Mi nombre es Mauro Cáceres.
+              <br/>
+              Soy Desarrollado Full-Stack en Argentina.
+              <br/>
+              Actualmente construyo Sitios Web como Freelancer.
             </p>
             <div className='text-red-500 space-x-5 space-y-10'>
               <button><div className="fa-brands fa-github red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
