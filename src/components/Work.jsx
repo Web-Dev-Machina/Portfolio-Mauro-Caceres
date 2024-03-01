@@ -75,7 +75,7 @@ const Work = () => {
       {/* Desktop */}
       <div className="flex sm:hidden xl:flex flex-col xl:flex-row justify-between gap-y-12 items-center max-w-screen-xl mx-auto">
 
-        <div className="max-w-sm rounded shadow-lg card-glow">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg card-glow">
           <div className="relative">
 
             <div className="flex justify-center gap-x-10 items-center py-14">
@@ -100,7 +100,7 @@ const Work = () => {
       </div>
           
 
-      <div className="max-w-sm rounded  shadow-lg card-glow">
+      <div className="max-w-sm rounded overflow-hidden shadow-lg card-glow">
       <div className="relative">
 
         <div className="flex justify-center gap-x-10 items-center py-14">
