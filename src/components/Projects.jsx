@@ -1,12 +1,12 @@
-const Work = () => {
+const Projects = () => {
   return <>
     <section className="relative px-4">
       <div className="flex max-w-screen-xl mx-auto">
-        <h2 className="py-24 font-poppins font-semibold text-[30px] sm:text-[40px] md:text-[33px] lg:text-[40px] xl:text-[50px] text-white leading-[75px] lg:leading-[100px]">
+        <h2 className="mx-auto md:mx-0 py-28 font-poppins font-semibold text-[30px] sm:text-[40px] md:text-[33px] lg:text-[40px] xl:text-[50px] text-white leading-[75px] lg:leading-[100px]">
           Mis <span className="text-red-500 red-glow">Proyectos</span>
         </h2>
       </div>
-
+      
       {/* Responsive */}
       <div className="hidden sm:flex xl:hidden flex-col justify-between gap-y-12 items-center max-w-screen-xl mx-auto">
 
@@ -92,7 +92,7 @@ const Work = () => {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
           </p>
         </div>
-        <div className="px-4 pt-4 pb-2 flex">
+        <div className="justify-center sm:justify-start px-4 pt-4 pb-2 flex">
           <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
           <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#threejs</span>
           <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
@@ -117,7 +117,7 @@ const Work = () => {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
           </p>
         </div>
-        <div className="px-4 pt-4 pb-2 flex">
+        <div className="justify-center sm:justify-start px-4 pt-4 pb-2 flex">
           <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
           <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#threejs</span>
           <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#spline</span>
@@ -141,7 +141,7 @@ const Work = () => {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
           </p>
         </div>
-        <div className="px-4 pt-4 pb-2 flex">
+        <div className="justify-center sm:justify-start px-4 pt-4 pb-2 flex">
           <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
           <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
           <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#flowbite</span>
@@ -158,4 +158,4 @@ const Work = () => {
   </>;
 };
 
-export default Work;
+export default Projects;

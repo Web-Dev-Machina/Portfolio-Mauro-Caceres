@@ -1,8 +1,8 @@
 import Navbar from "./components/Navbar.jsx"
 import Hero from "./components/Hero.jsx"
 import StarCanvas from "./canvas/StarCanvas.jsx"
-import Work from "./components/Work.jsx"
-import Profile from "./components/Profile.jsx"
+import Projects from "./components/Projects.jsx"
+import Experience from "./components/Experience.jsx"
 
 function App() {
 
@@ -13,14 +13,15 @@ function App() {
       <StarCanvas/>
       <Hero/>
     </div>
-    <Work/>
-    <div className="mx-auto max-w-screen-xl relative z-0">
-      <img className="hue-rotate-30 h-auto absolute inset-0 z-[-1]" src="planet.webp" alt="planet"/>
-      <Profile/>
-    </div>
+    <Projects/>
+    <div className="mx-auto relative max-w-screen-xl z-0">
+    <img className="hue-rotate-30 absolute inset-0 z-[-1] lg:p-10" src="planet.webp" alt="planet"/>
+      <Experience/>
+      </div>
+
     <div className="relative z-0">
-       <img className="hue-rotate-30 w-full h-auto absolute inset-0 z-[-1]" src="footer.webp" alt="footer"/>
-      <Work/>
+       <img className="hue-rotate-30 absolute inset-0 z-[-1]" src="footer.webp" alt="footer"/>
+      <Projects/>
     </div>
     <Navbar/>
     </>
