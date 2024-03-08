@@ -147,8 +147,8 @@ const Projects = () => {
           <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#flowbite</span>
         </div>
       </div>
-
     </div>
+
     <div className="rounded-full bg-purple-600 absolute w-72 h-72 blur-[250px] left-0 top-72 z-[-10]"/>
     <div className="rounded-full bg-red-600 absolute w-60 h-60 blur-[250px] left-0 top-44 z-[-10]"/>
 
