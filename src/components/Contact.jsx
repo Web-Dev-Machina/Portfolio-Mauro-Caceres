@@ -9,8 +9,8 @@ const Contact = () => {
                 Mi <span className="text-red-500 red-glow">Contacto</span>
                 </h2>
 
-                <p className="text-white font-light text-lg leading-6">
-                    Visita mis redes o hazme una consulta, podemos colaborar y trabajar en un proyecto.
+                <p className="text-white font-light text-lg leading-6 max-w-[470px] md:max-w-[550px] text-center md:text-left">
+                    Visita mis redes o hazme una consulta, podemos trabajar en un proyecto juntos.
                 </p>
 
                 <div className='text-red-500 space-x-3 space-y-5'>

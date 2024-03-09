@@ -1,12 +1,12 @@
 const Projects = () => {
   return <>
     <section className="relative px-4 pb-20">
-      <div className="pt-10 pb-32 flex flex-col max-w-screen-xl mx-auto items-center sm:items-start">
+      <div className="pt-10 pb-20 sm:pb-32 flex flex-col max-w-screen-xl mx-auto items-center sm:items-start">
         <h2 className="mx-auto md:mx-0 font-poppins font-semibold text-[30px] sm:text-[40px] md:text-[33px] lg:text-[40px] xl:text-[50px] text-white leading-[75px] lg:leading-[100px]">
           Mis <span className="text-red-500 red-glow">Proyectos</span>
         </h2>
-        <p className="text-white font-light text-lg leading-6">
-          Visita mis redes o hazme una consulta, podemos colaborar y trabajar en un proyecto.
+        <p className="text-white font-light text-lg leading-6 max-w-[470px] md:max-w-[550px] text-center md:text-left">
+          En 2020 estudié Desarrollo Web en Coderhouse. Hoy en día sigo perfeccionando el uso de estas herramientas mediante estos proyectos.
         </p>
       </div>
       
