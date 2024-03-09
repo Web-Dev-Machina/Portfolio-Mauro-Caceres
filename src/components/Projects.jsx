@@ -23,9 +23,9 @@ const Projects = () => {
               <p className="text-gray-400 max-w-[470px] items-center justify-center font-light text-lg leading-6 text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
             </div>
             <div className="flex">
-              <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
-              <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#threejs</span>
-              <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
+              <span className="inline-block hover:text-white  bg-purple-950/50 rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
+              <span className="inline-block hover:text-white  bg-purple-950/50 rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#threejs</span>
+              <span className="inline-block hover:text-white  bg-purple-950/50 rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
             </div>
           </div>
         </div>
@@ -43,9 +43,9 @@ const Projects = () => {
               <p className="text-gray-400 max-w-[470px] items-center justify-center font-light text-lg leading-6 text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
             </div>
             <div className="flex gap-x-1.5">
-              <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
-              <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#threejs</span>
-              <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#spline</span>
+              <span className="inline-block hover:text-white  bg-purple-950/50 rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
+              <span className="inline-block hover:text-white  bg-purple-950/50 rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#threejs</span>
+              <span className="inline-block hover:text-white  bg-purple-950/50 rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#spline</span>
             </div>
           </div>
         </div>
@@ -63,9 +63,9 @@ const Projects = () => {
               <p className="text-gray-400 max-w-[470px] items-center justify-center font-light text-lg leading-6 text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
             </div>
             <div className="flex gap-x-1">
-              <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-2 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
-              <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-2 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
-              <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-2 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#flowbite</span>
+              <span className="inline-block hover:text-white  bg-purple-950/50 rounded-full px-2 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
+              <span className="inline-block hover:text-white  bg-purple-950/50 rounded-full px-2 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
+              <span className="inline-block hover:text-white  bg-purple-950/50 rounded-full px-2 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#flowbite</span>
             </div>
           </div>
         </div>
@@ -93,9 +93,9 @@ const Projects = () => {
           </p>
         </div>
         <div className="justify-center sm:justify-start px-4 pt-4 pb-2 flex">
-          <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
-          <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#threejs</span>
-          <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
+          <span className="inline-block hover:text-white  bg-purple-950/50 rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
+          <span className="inline-block hover:text-white  bg-purple-950/50 rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#threejs</span>
+          <span className="inline-block hover:text-white  bg-purple-950/50 rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
         </div>
       </div>
           
@@ -118,9 +118,9 @@ const Projects = () => {
           </p>
         </div>
         <div className="justify-center sm:justify-start px-4 pt-4 pb-2 flex">
-          <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
-          <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#threejs</span>
-          <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#spline</span>
+          <span className="inline-block hover:text-white  bg-purple-950/50 rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
+          <span className="inline-block hover:text-white  bg-purple-950/50 rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#threejs</span>
+          <span className="inline-block hover:text-white  bg-purple-950/50 rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#spline</span>
         </div>
       </div>
 
@@ -142,9 +142,9 @@ const Projects = () => {
           </p>
         </div>
         <div className="justify-center sm:justify-start px-4 pt-4 pb-2 flex">
-          <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
-          <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
-          <span className="inline-block hover:text-white  bg-purple-700/10 backdrop-blur-xl rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#flowbite</span>
+          <span className="inline-block hover:text-white  bg-purple-950/50 rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#react</span>
+          <span className="inline-block hover:text-white  bg-purple-950/50 rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#tailwind</span>
+          <span className="inline-block hover:text-white  bg-purple-950/50 rounded-full px-3 py-1 text-sm font-medium text-red-500 mr-2 mb-2">#flowbite</span>
         </div>
       </div>
     </div>

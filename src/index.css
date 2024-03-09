@@ -54,7 +54,7 @@ background-color:rgb(126 34 206 0.1);
 }
 .card-glow:hover {
   background-color: rgb(126 34 206 0.1);
-  backdrop-filter: blur(1000px);
+  backdrop-filter: blur(100px);
   box-shadow: 0 20px 60px -25px rgba(244, 63, 94, 0.925);
 }
 
