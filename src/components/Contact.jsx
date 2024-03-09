@@ -12,24 +12,43 @@ const Contact = () => {
                 <p></p>
         </div>
 
-        <div className=" max-w-screen-xl mx-auto">
+        <div className="max-w-screen-xl mx-auto font-light text-lg">
 
-            <div className="grid grid-cols-1 gap-5 max-w-screen-md mx-auto">
+            <form className="grid gap-5 max-w-screen-md mx-auto">
 
-                <div className="bg-purple-950/10 text-white backdrop-blur-2xl rounded-full">
-                    <div className="py-4">Nombre</div>
+                <div className="bg-purple-950/10 text-white backdrop-blur-2xl rounded-md p-1">
+                    <input
+                        className="placeholder-purple-300 border border-purple-400 w-full px-2 rounded-md bg-purple-950/10"
+                        type="text"
+                        name="name"
+                        placeholder="John Doe"
+                        required
+                    />
                 </div>
 
-                <div className="bg-purple-950/30 text-white backdrop-blur-2xl rounded-full">
-                    <div className="py-4">Email</div>
-                </div> 
+                <div className="bg-purple-950/10 text-white backdrop-blur-2xl rounded-md p-1">
+                <input
+                        className="placeholder-purple-300 border border-purple-400 w-full px-2 rounded-md bg-purple-950/10"
+                        type="email"
+                        name="email"
+                        placeholder="JohnDoe@ejemplo.com"
+                        required
+                    />
+                </div>
 
-                <div className="bg-purple-950/30 text-white backdrop-blur-2xl rounded-full">
-                    <div className="py-4">Escriba su consulta</div>
-                </div> 
+                <div className="bg-purple-950/10 text-white backdrop-blur-2xl rounded-md">
+                    <div className="border-purple-400 rounded-md pt-1 px-1">
+                        <textarea
+                            className="placeholder-purple-300 border border-purple-400 w-full px-2 pb-10 rounded-md bg-purple-950/10"
+                            name="message"
+                            placeholder="Escribe tu consulta aquí"
+                            required
+                        />
+                    </div>
+                </div>
 
-                <button href="#" className="neon-button max-w-44 mx-auto backdrop-blur-sm">Enviar</button>
-            </div> 
+                <button href="#" className=" font-normal neon-button max-w-44 mx-auto backdrop-blur-md my-5">Enviar</button>
+            </form> 
         </div>
 
     </section>

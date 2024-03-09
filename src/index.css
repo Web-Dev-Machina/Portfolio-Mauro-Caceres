@@ -6,8 +6,8 @@
   max-width: 1920px;
   margin: 0 auto;
   text-align: center;
-  --clr-neon: rgb(255, 149, 207);
-  --clr-bg: hsl(271, 94%, 38%);
+  --clr-neon: rgb(255, 181, 219);
+  --clr-bg: hsl(0, 100%, 63%);
 }
 body {
   background-color: #090015;
@@ -109,7 +109,7 @@ background-color:rgb(126 34 206 0.1);
 
   transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
   filter: blur(0.75em);
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 .neon-button::after {

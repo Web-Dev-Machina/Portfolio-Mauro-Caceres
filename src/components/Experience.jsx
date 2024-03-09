@@ -15,7 +15,7 @@ const Experience = () => {
 
         <div className="bg-purple-950/30 text-white backdrop-blur-2xl rounded-2xl">
 
-          <h3 className="py-2 font-poppins font-semibold text-[20px] sm:text-[30px] md:text-[24px] lg:text-[30px] xl:text-[35px] text-red-500"><span className="red-glow">Front-End</span></h3>
+          <h3 className="py-2 font-poppins font-bold text-[20px] sm:text-[30px] md:text-[24px] lg:text-[30px] xl:text-[35px] text-red-500"><span className="red-glow">Front-End</span></h3>
 
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-3 mx-auto gap-5 py-4">
 
@@ -69,7 +69,7 @@ const Experience = () => {
 
         <div className="bg-purple-950/30 text-white backdrop-blur-2xl rounded-2xl">
 
-          <h3 className="py-2 font-poppins font-semibold text-[20px] sm:text-[30px] md:text-[24px] lg:text-[30px] xl:text-[35px] text-red-500"><span className="red-glow">Back-End</span></h3>
+          <h3 className="py-2 font-poppins font-bold text-[20px] sm:text-[30px] md:text-[24px] lg:text-[30px] xl:text-[35px] text-red-500"><span className="red-glow">Back-End</span></h3>
 
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-3 mx-auto gap-5 py-4">
 
@@ -103,7 +103,7 @@ const Experience = () => {
 
         <div className="bg-purple-950/30 text-white backdrop-blur-2xl rounded-2xl">
 
-          <h3 className="py-2 font-poppins font-semibold text-[20px] sm:text-[30px] md:text-[24px] lg:text-[30px] xl:text-[35px] text-red-500"><span className="red-glow">Herramientas</span></h3>
+          <h3 className="py-2 font-poppins font-bold text-[20px] sm:text-[30px] md:text-[24px] lg:text-[30px] xl:text-[35px] text-red-500"><span className="red-glow">Herramientas</span></h3>
 
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-3 mx-auto gap-5 py-4">
 
@@ -147,7 +147,7 @@ const Experience = () => {
 
         <div className="bg-purple-950/30 text-white backdrop-blur-2xl rounded-2xl">
 
-          <h3 className="py-2 font-poppins font-semibold text-[20px] sm:text-[30px] md:text-[24px] lg:text-[30px] xl:text-[35px] text-red-500"><span className="red-glow">Aprendiendo</span></h3>
+          <h3 className="py-2 font-poppins font-bold text-[20px] sm:text-[30px] md:text-[24px] lg:text-[30px] xl:text-[35px] text-red-500"><span className="red-glow">Aprendiendo</span></h3>
 
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-3 mx-auto gap-5 py-4">
 
