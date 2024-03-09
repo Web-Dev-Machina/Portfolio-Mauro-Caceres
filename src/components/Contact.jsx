@@ -27,7 +27,7 @@ const Contact = () => {
 
                 <div className="bg-purple-950/10 text-white backdrop-blur-2xl rounded-md p-1">
                     <input
-                        className="placeholder-purple-300 border border-purple-400 w-full px-2 rounded-md bg-purple-950/10"
+                        className="placeholder-purple-300 border border-purple-500 w-full px-2 rounded-md bg-purple-950/10"
                         type="text"
                         name="name"
                         placeholder="John Doe"
@@ -37,7 +37,7 @@ const Contact = () => {
 
                 <div className="bg-purple-950/10 text-white backdrop-blur-2xl rounded-md p-1">
                 <input
-                        className="placeholder-purple-300 border border-purple-400 w-full px-2 rounded-md bg-purple-950/10"
+                        className="placeholder-purple-300 border border-purple-500 w-full px-2 rounded-md bg-purple-950/10"
                         type="email"
                         name="email"
                         placeholder="JohnDoe@ejemplo.com"
@@ -48,7 +48,7 @@ const Contact = () => {
                 <div className="bg-purple-950/10 text-white backdrop-blur-2xl rounded-md">
                     <div className="border-purple-400 rounded-md pt-1 px-1 -mb-0.5">
                         <textarea
-                            className="placeholder-purple-300 border border-purple-400 w-full px-2 pb-10 rounded-md bg-purple-950/10"
+                            className="placeholder-purple-300 border border-purple-500 w-full px-2 pb-10 rounded-md bg-purple-950/10"
                             name="message"
                             placeholder="Escribe tu consulta aquí"
                             required
