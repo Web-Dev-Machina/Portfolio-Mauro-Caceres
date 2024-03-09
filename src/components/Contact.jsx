@@ -37,7 +37,7 @@ const Contact = () => {
                 </div>
 
                 <div className="bg-purple-950/10 text-white backdrop-blur-2xl rounded-md">
-                    <div className="border-purple-400 rounded-md pt-1 px-1">
+                    <div className="border-purple-400 rounded-md pt-1 px-1 -mb-0.5">
                         <textarea
                             className="placeholder-purple-300 border border-purple-400 w-full px-2 pb-10 rounded-md bg-purple-950/10"
                             name="message"
@@ -47,7 +47,13 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <button href="#" className=" font-normal neon-button max-w-44 mx-auto backdrop-blur-md my-5">Enviar</button>
+                <button
+                    className=" font-normal neon-button max-w-44 mx-auto backdrop-blur-md my-5"
+                    type="submit"
+                >
+                    Enviar
+                
+                </button>
             </form> 
         </div>
 
