@@ -22,7 +22,7 @@ function App() {
 
     <div className="relative z-0">
       {/*hay que jugar con object-cover y h-[1000px] para adaptarlo bien a responsive*/}
-       <img className="object-cover h-[800px] hue-rotate-30 absolute inset-0 z-[-1]" src="footer.webp" alt="footer"/>
+       <img className="object-cover h-[750px] hue-rotate-30 absolute inset-0 z-[-1]" src="footer.webp" alt="footer"/>
       <Contact/>
     </div>
     

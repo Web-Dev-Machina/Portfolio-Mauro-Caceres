@@ -5,7 +5,7 @@ const Hero = () => {
     {/* responsive img */}
     <img src="user.webp" alt="user" className="top-5 absolute w-[400px] h-[650px] md:w-0 md:h-0 -z-5 opacity-10" />
 
-      <section className="px-4 flex md:flex-row flex-col items-center justify-between max-w-screen-2xl mx-auto">
+      <section className="px-4 pb-24 flex md:flex-row flex-col items-center justify-between max-w-screen-2xl mx-auto">
 
         <div className="py-48 z-[1]">
           <div className="text-center md:text-left">

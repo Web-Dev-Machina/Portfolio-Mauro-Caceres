@@ -4,12 +4,21 @@ const Contact = () => {
   
     <section className="px-4">
 
-        <div className="py-28 flex max-w-screen-xl mx-auto">
+        <div className="pb-12 flex flex-col max-w-screen-xl mx-auto items-center sm:items-start">
             <h2 className="mx-auto md:mx-0 font-poppins font-semibold text-[30px] sm:text-[40px] md:text-[33px] lg:text-[40px] xl:text-[50px] text-white leading-[75px] lg:leading-[100px]">
                 Mi <span className="text-red-500 red-glow">Contacto</span>
                 </h2>
 
-                <p></p>
+                <p className="text-white font-light text-lg leading-6">
+                    Visita mis redes o hazme una consulta, podemos colaborar y trabajar en un proyecto.
+                </p>
+
+                <div className='text-red-500 space-x-3 space-y-5'>
+                    <button><div className="fa-brands fa-github red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+                    <button><div className="fa-brands fa-linkedin red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+                    <button><div className="fa-brands fa-whatsapp red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+                    <button><div className="fa-regular fa-envelope red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+                </div>
         </div>
 
         <div className="max-w-screen-xl mx-auto font-light text-lg">
@@ -48,11 +57,10 @@ const Contact = () => {
                 </div>
 
                 <button
-                    className=" font-normal neon-button max-w-44 mx-auto backdrop-blur-md my-5"
+                    className="font-normal neon-button max-w-44 mx-auto backdrop-blur-md my-5"
                     type="submit"
                 >
                     Enviar
-                
                 </button>
             </form> 
         </div>

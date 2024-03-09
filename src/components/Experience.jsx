@@ -1,15 +1,15 @@
 const Experience = () => {
   return <>
   
-  <section className="px-4">
+  <section className="px-4 pb-20 sm:pb-44">
 
     <div className="flex max-w-screen-xl mx-auto">
-    <h2 className="mx-auto md:mx-0 py-28 font-poppins font-semibold text-[30px] sm:text-[40px] md:text-[33px] lg:text-[40px] xl:text-[50px] text-white leading-[75px] lg:leading-[100px]">
+    <h2 className="mx-auto md:mx-0 pt-32 sm:pt-0 pb-20 sm:pb-56 font-poppins font-semibold text-[30px] sm:text-[40px] md:text-[33px] lg:text-[40px] xl:text-[50px] text-white leading-[75px] lg:leading-[100px]">
           Mis <span className="text-red-500 red-glow">Habilidades</span>
         </h2>
     </div>
 
-    <div className=" max-w-screen-xl mx-auto">
+    <div className="max-w-screen-xl mx-auto">
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 max-w-screen-md mx-auto">
 
