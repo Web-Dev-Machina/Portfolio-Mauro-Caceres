@@ -109,11 +109,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <button
-                    className="font-normal neon-button max-w-44 mx-auto backdrop-blur-md my-5"
-                    type="submit"
-                    disabled={isLoading}
-                >
+                <button className="font-normal neon-button max-w-44 mx-auto backdrop-blur-md my-5 z-96" type="submit" disabled={isLoading}>
                     {isLoading ? "Enviando..." : "Enviar"}
                 </button>
 
