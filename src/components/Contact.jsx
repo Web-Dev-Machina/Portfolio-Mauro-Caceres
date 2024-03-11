@@ -7,6 +7,7 @@ const Contact = () => {
     const [form, setForm] = useState ({name:'',email:'',message:''})
     const [isLoading, setIsLoading] = useState(false);
     const formRef = useRef(null);
+    console.log(keys.VITE_APP_EMAILJS_SERVICE_KEY);
 
     // Maneja y guarda la carga de datos del input
     const handleChange = (e) => {       
