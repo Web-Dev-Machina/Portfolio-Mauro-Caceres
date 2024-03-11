@@ -69,6 +69,7 @@ const Contact = () => {
                 className="grid gap-5 mx-auto"
                 name="form"
                 ref={formRef}
+                autoComplete="on"
                 onSubmit={handleSubmit}
             >
 
