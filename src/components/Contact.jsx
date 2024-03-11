@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { Toaster, toast } from "sonner";
+import keys from "../keys.js";
 
 const Contact = () => {
     const [form, setForm] = useState ({name:'',email:'',message:''})
@@ -18,8 +19,8 @@ const Contact = () => {
         
         emailjs.send(
 
-            import.meta.env.VITE_APP_EMAILJS_SERVICE_KEY,
-            import.meta.env.VITE_APP_EMAILJS_TEMPLATE_KEY,
+            keys.VITE_APP_EMAILJS_SERVICE_KEY,
+            keys.VITE_APP_EMAILJS_TEMPLATE_KEY,
             {
                 from_name: form.name,
                 to_name: "Web Ex Machina",
@@ -27,12 +28,13 @@ const Contact = () => {
                 to_email: "main.webexmachina@gmail.com",
                 message: form.message
             },
-            import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+            keys.VITE_APP_EMAILJS_PUBLIC_KEY,
 
         ).then(() => {
             setIsLoading(false);
             setForm({name:"", email: "", message: ""});
             toast.success('Mensaje enviado');
+            console.log(keys.VITE_APP_EMAILJS_SERVICE_KEY);
 
         }).catch((error) => {
             setIsLoading(false);
@@ -67,6 +69,7 @@ const Contact = () => {
                 className="grid gap-5 mx-auto"
                 name="form"
                 ref={formRef}
+                autoComplete="on"
                 onSubmit={handleSubmit}
             >
 
@@ -112,7 +115,7 @@ const Contact = () => {
                 <button className="font-normal neon-button max-w-44 mx-auto backdrop-blur-md my-5 z-96" type="submit" disabled={isLoading}>
                     {isLoading ? "Enviando..." : "Enviar"}
                 </button>
-                
+
                 <Toaster richColors="true" position="top-right"/>
             </form> 
         </div>
