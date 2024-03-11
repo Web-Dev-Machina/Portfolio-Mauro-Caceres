@@ -13,7 +13,6 @@ const Contact = () => {
         console.log(e)
         }
     console.log(keys.VITE_APP_EMAILJS_SERVICE_KEY);
-    console.log("test");
 
     // Maneja y guarda la carga de datos del input
     const handleChange = (e) => {       
@@ -126,6 +125,7 @@ const Contact = () => {
 
                 <Toaster richColors="true" position="top-right"/>
             </form> 
+            <button className="font-normal neon-button max-w-44 mx-auto backdrop-blur-md my-5 z-96" type="button" onClick={() => console.log("test1")}>Prueba</button>
         </div>
     </section>
 
