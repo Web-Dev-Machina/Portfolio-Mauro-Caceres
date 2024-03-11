@@ -1,5 +1,43 @@
+import { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+    const [form, setForm] = useState ({name:'',email:'',message:''})
+    const [isLoading, setIsLoading] = useState(false);
+    const formRef = useRef(null);
+
+    // Maneja y guarda la carga de datos del input
+    const handleChange = (e) => {       
+        setForm({...form, [e.target.name]: e.target.value})
+      };
+
+      const handleSubmit = (e) => {
+        e.preventDefault();
+        setIsLoading(true);
+        
+        emailjs.send(
+
+            import.meta.env.VITE_APP_EMAILJS_SERVICE_KEY,
+            import.meta.env.VITE_APP_EMAILJS_TEMPLATE_KEY,
+            {
+                from_name: form.name,
+                to_name: "Web Ex Machina",
+                from_email: form.email,
+                to_email: "main.webexmachina@gmail.com",
+                message: form.message
+            },
+            import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+
+        ).then(() => {
+            setIsLoading(false);
+            setForm({name:"", email: "", message: ""});
+
+        }).catch((error) => {
+            setIsLoading(false);
+            console.log(error);
+        });
+      };
+
   return <>
   
     <section className="px-4">
@@ -21,9 +59,14 @@ const Contact = () => {
                 </div>
         </div>
 
-        <div className="max-w-screen-xl mx-auto font-light text-lg">
+        <div className="max-w-screen-sm mx-auto font-light text-lg">
 
-            <form className="grid gap-5 max-w-screen-md mx-auto">
+            <form 
+                className="grid gap-5 mx-auto"
+                name="form"
+                ref={formRef}
+                onSubmit={handleSubmit}
+            >
 
                 <div className="bg-purple-950/10 text-white backdrop-blur-2xl rounded-md p-1">
                     <input
@@ -32,6 +75,8 @@ const Contact = () => {
                         name="name"
                         placeholder="John Doe"
                         required
+                        value={form.name}
+                        onChange={handleChange}
                     />
                 </div>
 
@@ -42,16 +87,22 @@ const Contact = () => {
                         name="email"
                         placeholder="JohnDoe@ejemplo.com"
                         required
+                        value={form.email}
+                        onChange={handleChange}
+
                     />
                 </div>
 
                 <div className="bg-purple-950/10 text-white backdrop-blur-2xl rounded-md">
                     <div className="border-purple-400 rounded-md pt-1 px-1 -mb-0.5">
                         <textarea
-                            className="placeholder-purple-300 border border-purple-500 w-full px-2 pb-10 rounded-md bg-purple-950/10"
+                            className="placeholder-purple-300 border border-purple-500 w-full px-2 rounded-md bg-purple-950/10"
+                            rows={3}
                             name="message"
                             placeholder="Escribe tu consulta aquí"
                             required
+                            value={form.message}
+                            onChange={handleChange}
                         />
                     </div>
                 </div>
@@ -59,8 +110,9 @@ const Contact = () => {
                 <button
                     className="font-normal neon-button max-w-44 mx-auto backdrop-blur-md my-5"
                     type="submit"
+                    disabled={isLoading}
                 >
-                    Enviar
+                    {isLoading ? "Enviando..." : "Enviar"}
                 </button>
             </form> 
         </div>

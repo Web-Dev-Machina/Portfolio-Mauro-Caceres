@@ -1,6 +1,6 @@
 const Projects = () => {
   return <>
-    <section className="relative px-4 pb-20 sm:pb-44">
+    <section className="relative px-4 pt-10 pb-20 sm:pb-44">
       <div className="pt-10 pb-20 sm:pb-32 flex flex-col max-w-screen-xl mx-auto items-center sm:items-start">
         <h2 className="mx-auto md:mx-0 font-poppins font-semibold text-[30px] sm:text-[40px] md:text-[33px] lg:text-[40px] xl:text-[50px] text-white leading-[75px] lg:leading-[100px]">
           Mis <span className="text-red-500 red-glow">Proyectos</span>
