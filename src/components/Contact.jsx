@@ -81,7 +81,7 @@ const Contact = () => {
                         required
                         value={form.name}
                         onChange={handleChange}
-                        autoComplete="on"
+                        autoComplete="name"
                     />
                 </div>
 
@@ -94,7 +94,7 @@ const Contact = () => {
                         required
                         value={form.email}
                         onChange={handleChange}
-                        autoComplete="on"
+                        autoComplete="email"
                     />
                 </div>
 
