@@ -69,7 +69,6 @@ const Contact = () => {
                 className="grid gap-5 mx-auto"
                 name="form"
                 ref={formRef}
-                autoComplete="on"
                 onSubmit={handleSubmit}
             >
 
@@ -82,6 +81,7 @@ const Contact = () => {
                         required
                         value={form.name}
                         onChange={handleChange}
+                        autoComplete
                     />
                 </div>
 
@@ -94,7 +94,7 @@ const Contact = () => {
                         required
                         value={form.email}
                         onChange={handleChange}
-
+                        autoComplete
                     />
                 </div>
 
