@@ -112,6 +112,9 @@ const Contact = () => {
                 <button className="font-normal neon-button max-w-44 mx-auto backdrop-blur-md my-5 z-96" type="submit" disabled={isLoading}>
                     {isLoading ? "Enviando..." : "Enviar"}
                 </button>
+                <button className=" bg-white px-5 mx-auto" type="submit" disabled={isLoading}>
+                    {isLoading ? "Enviando..." : "Enviar"}
+                </button>
 
                 <Toaster richColors="true" position="top-right"/>
             </form> 
