@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { Toaster, toast } from "sonner";
 
 const Contact = () => {
     const [form, setForm] = useState ({name:'',email:'',message:''})
@@ -31,6 +32,7 @@ const Contact = () => {
         ).then(() => {
             setIsLoading(false);
             setForm({name:"", email: "", message: ""});
+            toast.success('Mensaje enviado');
 
         }).catch((error) => {
             setIsLoading(false);
@@ -114,9 +116,10 @@ const Contact = () => {
                 >
                     {isLoading ? "Enviando..." : "Enviar"}
                 </button>
+
+                <Toaster richColors="true" position="top-right"/>
             </form> 
         </div>
-
     </section>
 
   </>;
