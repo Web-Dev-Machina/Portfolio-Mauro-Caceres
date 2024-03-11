@@ -34,7 +34,7 @@ const Contact = () => {
             setIsLoading(false);
             setForm({name:"", email: "", message: ""});
             toast.success('Mensaje enviado');
-            
+
         }).catch((error) => {
             setIsLoading(false);
             console.log(error);
@@ -48,18 +48,26 @@ const Contact = () => {
         <div className="pb-12 flex flex-col max-w-screen-xl mx-auto items-center sm:items-start">
             <h2 className="mx-auto md:mx-0 font-poppins font-semibold text-[30px] sm:text-[40px] md:text-[33px] lg:text-[40px] xl:text-[50px] text-white leading-[75px] lg:leading-[100px]">
                 Mi <span className="text-red-500 red-glow">Contacto</span>
-                </h2>
+            </h2>
 
-                <p className="text-white font-light text-lg leading-6 max-w-[470px] md:max-w-[550px] text-center md:text-left">
-                    Visita mis redes o hazme una consulta, podemos trabajar en un proyecto juntos.
-                </p>
+            <p className="text-white font-light text-lg leading-6 max-w-[470px] md:max-w-[550px] text-center md:text-left">
+                Visita mis redes o consultame, podemos trabajar en un proyecto juntos.
+            </p>
 
-                <div className='text-red-500 space-x-3 space-y-5'>
-                    <button><div className="fa-brands fa-github red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
-                    <button><div className="fa-brands fa-linkedin red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
-                    <button><div className="fa-brands fa-whatsapp red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
-                    <button><div className="fa-regular fa-envelope red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
-                </div>
+            <div className='text-red-500 space-x-3 pt-10'>
+                <a className='cursor-pointer' target="_blank" rel="noopener noreferrer" href="https://github.com/Web-ExMachina">
+                    <div className="fa-brands fa-github red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div>
+                </a>
+                <a className='cursor-pointer' target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mauro-ezequiel-c%C3%A1ceres-4098669b/">
+                    <div className="fa-brands fa-linkedin red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div>
+                </a>
+                <a className='cursor-pointer' target="_blank" rel="noopener noreferrer" href="https://wa.me/+541121559220?text=!Hola¡%20Vi%20tu%20Sitio%20Web%20y%20quiero%20hacerte%20una%20consulta">
+                    <div className="fa-brands fa-whatsapp red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div>
+                </a>
+                <a className='cursor-pointer' target="_blank" rel="noopener noreferrer" href="mailto:main.webexmachina@gmail.com">
+                    <div className="fa-regular fa-envelope red-glow bg-purple-700/10 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div>
+                </a>
+            </div>
         </div>
 
         <div className="max-w-screen-sm mx-auto font-light text-lg">

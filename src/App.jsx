@@ -25,9 +25,8 @@ function App() {
        <img className="object-cover h-[750px] hue-rotate-30 absolute inset-0 z-[-1]" src="footer.webp" alt="footer"/>
       <Contact/>
     </div>
-    
     <Navbar/>
-    </>
+  </>
 }
 
 export default App
