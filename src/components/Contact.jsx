@@ -7,6 +7,11 @@ const Contact = () => {
     const [form, setForm] = useState ({name:'',email:'',message:''})
     const [isLoading, setIsLoading] = useState(false);
     const formRef = useRef(null);
+    try {
+        console.log("test") 
+        } catch (e) {
+        console.log(e)
+        }
     console.log(keys.VITE_APP_EMAILJS_SERVICE_KEY);
     console.log("test");
 
