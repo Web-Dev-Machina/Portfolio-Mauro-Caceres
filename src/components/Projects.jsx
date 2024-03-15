@@ -5,7 +5,7 @@ const Projects = () => {
         <h2 className="mx-auto md:mx-0 font-poppins font-semibold text-[30px] sm:text-[40px] md:text-[33px] lg:text-[40px] xl:text-[50px] text-white leading-[75px] lg:leading-[100px]">
           Mis <span className="text-red-500 red-glow">Proyectos</span>
         </h2>
-        <p className="text-white font-light text-lg leading-6 max-w-[470px] md:max-w-[550px] text-center md:text-left">
+        <p className="mx-auto md:mx-0 text-white font-light text-lg leading-6 max-w-[470px] md:max-w-[550px] text-center md:text-left">
           En 2020 estudié Desarrollo Web en Coderhouse. Hoy en día sigo perfeccionando el uso de herramientas mediante estos proyectos.
         </p>
       </div>
@@ -23,7 +23,7 @@ const Projects = () => {
           <div className="flex flex-col bg-purple-700/10 backdrop-blur-sm p-4 justify-between leading-normal py-5 w-auto">
             <div className="mb-8">
               <div className="text-white font-bold text-xl mb-2">3D Website Portfolio</div>
-              <p className="text-gray-400 max-w-[470px] items-center justify-center font-light text-lg leading-6 text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+              <p className="text-gray-400 max-w-[470px] items-center justify-center font-light text-lg leading-6 text-left">Sitio Web donde la página principal es una escena 3D interactiva y esta compuesta de cuatro puntos de interés. El formulario de Contacto posee un objeto 3D que responde a los input del usuario.</p>
             </div>
             <div className="flex">
               <span className="inline-block hover:text-red-500 bg-purple-950/30 rounded-full px-3 py-1 text-sm font-medium text-purple-300 mr-2 mb-2">#react</span>
@@ -40,15 +40,15 @@ const Projects = () => {
               <a aria-label="Go to Website" target="_blank" rel="noopener noreferrer" href="https://maurocaceres.netlify.app"><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
             </div>
           </div>
-          <div className="flex flex-col bg-purple-700/10 backdrop-blur-sm p-4 justify-between leading-normal py-5 w-auto">
+          <div className="flex flex-col bg-purple-700/10 backdrop-blur-sm p-3 justify-between leading-normal py-5 w-auto">
             <div className="mb-8">
-              <div className="text-white font-bold text-xl mb-2">Personal Portfolio</div>
-              <p className="text-gray-400 max-w-[470px] items-center justify-center font-light text-lg leading-6 text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+              <div className="text-white font-bold text-xl mb-2">Portfolio Personal</div>
+              <p className="text-gray-400 max-w-[470px] items-center justify-center font-light text-lg leading-6 text-left">Sitio de diseño OnePage con fondo 3D mediante Three.js y react-three/fiber. El formulario está echo con EmailjS y Sonner para la notificación de envío</p>
             </div>
             <div className="flex gap-x-1.5">
               <span className="inline-block hover:text-red-500 bg-purple-950/30 rounded-full px-3 py-1 text-sm font-medium text-purple-300 mr-2 mb-2">#react</span>
               <span className="inline-block hover:text-red-500 bg-purple-950/30 rounded-full px-3 py-1 text-sm font-medium text-purple-300 mr-2 mb-2">#threejs</span>
-              <span className="inline-block hover:text-red-500 bg-purple-950/30 rounded-full px-3 py-1 text-sm font-medium text-purple-300 mr-2 mb-2">#spline</span>
+              <span className="inline-block hover:text-red-500 bg-purple-950/30 rounded-full px-3 py-1 text-sm font-medium text-purple-300 mr-2 mb-2">#tailwind</span>
             </div>
           </div>
         </div>
@@ -60,10 +60,10 @@ const Projects = () => {
               <a aria-label="Go to Website" target="_blank" rel="noopener noreferrer" href="https://www.fgaconsultora.com.ar/"><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
             </div>
           </div>
-          <div className="flex flex-col bg-purple-700/10 backdrop-blur-sm p-4 justify-between leading-normal py-5 w-auto">
+          <div className="flex flex-col bg-purple-700/10 backdrop-blur-sm p-5 justify-between leading-normal py-5 w-auto">
             <div className="mb-8">
               <div className="text-white font-bold text-xl mb-2">Landing Page</div>
-              <p className="text-gray-400 max-w-[470px] items-center justify-center font-light text-lg leading-6 text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+              <p className="text-gray-400 max-w-[470px] items-center justify-center font-light text-lg leading-6 text-left">Sitio web con Carrusel de imágenes hecho en Flowbite. Está compuesto por 9 páginas con diferentes servicios y el Formulario de Contacto está hecho con SmtpJS y reCAPTCHA v2.</p>
             </div>
             <div className="flex gap-x-1">
               <span className="inline-block hover:text-red-500 bg-purple-950/30 rounded-full px-2 py-1 text-sm font-medium text-purple-300 mr-2 mb-2">#react</span>
@@ -92,7 +92,7 @@ const Projects = () => {
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2 text-white">3D Website Portfolio</div>
           <p className="text-gray-400 font-light text-lg leading-6">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+          Sitio Web donde la página principal es una escena 3D interactiva y esta compuesta de cuatro puntos de interés. El formulario de Contacto posee un objeto 3D que responde a los input del usuario.
           </p>
         </div>
         <div className="justify-center sm:justify-start px-4 pt-4 pb-2 flex">
@@ -117,13 +117,13 @@ const Projects = () => {
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2 text-white">Personal Portfolio</div>
           <p className="text-gray-400 font-light text-lg leading-6">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+          Sitio de diseño OnePage con fondo 3D mediante Three.js y react-three/fiber. El formulario está echo con EmailjS y Sonner para notificar el envío por medio de un toast. <br/><br/>
           </p>
         </div>
         <div className="justify-center sm:justify-start px-4 pt-4 pb-2 flex">
           <span className="inline-block hover:text-red-500 bg-purple-950/30 rounded-full px-3 py-1 text-sm font-medium text-purple-300 mr-2 mb-2">#react</span>
           <span className="inline-block hover:text-red-500 bg-purple-950/30 rounded-full px-3 py-1 text-sm font-medium text-purple-300 mr-2 mb-2">#threejs</span>
-          <span className="inline-block hover:text-red-500 bg-purple-950/30 rounded-full px-3 py-1 text-sm font-medium text-purple-300 mr-2 mb-2">#spline</span>
+          <span className="inline-block hover:text-red-500 bg-purple-950/30 rounded-full px-3 py-1 text-sm font-medium text-purple-300 mr-2 mb-2">#tailwind</span>
         </div>
       </div>
 
@@ -141,7 +141,7 @@ const Projects = () => {
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2 text-white">Landing Page</div>
           <p className="text-gray-400 font-light text-lg leading-6">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            Sitio web con Carrusel de imágenes hecho en Flowbite. Está compuesto por 9 páginas con diferentes servicios y el Formulario de Contacto está hecho con SmtpJS y reCAPTCHA v2.
           </p>
         </div>
         <div className="justify-center sm:justify-start px-4 pt-4 pb-2 flex">
