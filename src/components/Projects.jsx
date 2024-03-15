@@ -16,8 +16,8 @@ const Projects = () => {
         <div className="flex rounded-md overflow-hidden mx-auto card-glow z-0">
           <div className="img-resp-child flex flex-row items-center justify-center h-auto w-[350px] md:w-[400px] lg:[500px] bg-cover text-center bg-center overflow-hidden" style={{backgroundImage: "url('card1.webp')"}}>
             <div className="button-child gap-12 hidden">
-              <button><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
-              <button><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+              <a aria-label="Go to Github repository" target="_blank" rel="noopener noreferrer" href="https://github.com/Web-ExMachina/Portfolio-Three.js-2"><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
+              <a aria-label="Go to Website" target="_blank" rel="noopener noreferrer" href="https://3d-website-react.netlify.app"><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
             </div>
           </div>
           <div className="flex flex-col bg-purple-700/10 backdrop-blur-sm p-4 justify-between leading-normal py-5 w-auto">
@@ -36,8 +36,8 @@ const Projects = () => {
         <div className="flex rounded-md overflow-hidden mx-auto card-glow z-0">
           <div className="img-resp-child flex flex-row items-center justify-center gap-12 h-auto w-[350px] md:w-[400px] lg:[500px] bg-cover text-center bg-center overflow-hidden" style={{backgroundImage: "url('card2.webp')"}}>
             <div className="button-child gap-12 hidden">
-              <button><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
-              <button><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+              <a aria-label="Go to Github repository" target="_blank" rel="noopener noreferrer" href="https://github.com/Web-ExMachina/CV-Caceres-Mauro"><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
+              <a aria-label="Go to Website" target="_blank" rel="noopener noreferrer" href="https://maurocaceres.netlify.app"><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
             </div>
           </div>
           <div className="flex flex-col bg-purple-700/10 backdrop-blur-sm p-4 justify-between leading-normal py-5 w-auto">
@@ -56,8 +56,8 @@ const Projects = () => {
         <div className="flex rounded-md overflow-hidden mx-auto card-glow z-0">
           <div className="img-resp-child flex flex-row items-center justify-center gap-12 h-auto w-[350px] md:w-[400px] lg:[500px] bg-cover text-center bg-center overflow-hidden" style={{backgroundImage: "url('card3.webp')"}}>
             <div className="button-child gap-12 hidden">
-              <button><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
-              <button><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+              <a aria-label="Go to Github repository" target="_blank" rel="noopener noreferrer" href="https://github.com/FGA-Consultora/FGA"><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
+              <a aria-label="Go to Website" target="_blank" rel="noopener noreferrer" href="https://www.fgaconsultora.com.ar/"><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
             </div>
           </div>
           <div className="flex flex-col bg-purple-700/10 backdrop-blur-sm p-4 justify-between leading-normal py-5 w-auto">
@@ -82,8 +82,8 @@ const Projects = () => {
           <div className="relative">
 
             <div className="flex justify-center gap-x-10 items-center py-14">
-              <button><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
-              <button><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+              <a aria-label="Go to Github repository" target="_blank" rel="noopener noreferrer" href="https://github.com/Web-ExMachina/Portfolio-Three.js-2"><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
+              <a aria-label="Go to Website" target="_blank" rel="noopener noreferrer" href="https://3d-website-react.netlify.app"><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
             </div>
 
             <img className="absolute top-0 img-child" src="card1.webp" alt="Portfolio-3D"/>
@@ -107,8 +107,8 @@ const Projects = () => {
       <div className="relative">
 
         <div className="flex justify-center gap-x-10 items-center py-14">
-          <button><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
-          <button><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+          <a aria-label="Go to Github repository" target="_blank" rel="noopener noreferrer" href="https://github.com/Web-ExMachina/CV-Caceres-Mauro"><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
+          <a aria-label="Go to Website" target="_blank" rel="noopener noreferrer" href="https://maurocaceres.netlify.app"><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
         </div>
 
         <img className="absolute top-0 img-child" src="card2.webp" alt="Personal Portfolio"/>
@@ -131,8 +131,8 @@ const Projects = () => {
         <div className="relative">
 
           <div className="flex justify-center gap-x-10 items-center py-14">
-            <button><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
-            <button><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></button>
+            <a aria-label="Go to Github repository" target="_blank" rel="noopener noreferrer" href="https://github.com/FGA-Consultora/FGA"><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
+            <a aria-label="Go to Website" target="_blank" rel="noopener noreferrer" href="https://www.fgaconsultora.com.ar/"><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
           </div>
 
           <img className="absolute top-0 img-child" src="card3.webp" alt="FGA Consulting"/>
@@ -151,7 +151,7 @@ const Projects = () => {
         </div>
       </div>
     </div>
-
+    {/*Background Blur spots*/}
     <div className="rounded-full bg-purple-600 absolute w-72 h-72 blur-[250px] left-0 top-72 z-[-10]"/>
     <div className="rounded-full bg-red-600 absolute w-60 h-60 blur-[250px] left-0 top-44 z-[-10]"/>
 

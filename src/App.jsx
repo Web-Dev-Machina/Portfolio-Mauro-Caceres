@@ -4,29 +4,46 @@ import StarCanvas from "./canvas/StarCanvas.jsx"
 import Projects from "./components/Projects.jsx"
 import Experience from "./components/Experience.jsx"
 import Contact from "./components/Contact.jsx"
+import { useInView } from 'react-intersection-observer';
 
 function App() {
+
+  /*Intersection Observer*/
+  const { ref:refHero, inView:inViewHero} = useInView({threshold: 0.55,});
+  const { ref:refProjects, inView:inViewProjects} = useInView({threshold: 0.3,});
+  const { ref:refExperience, inView:inViewExperience} = useInView({threshold: 0.44,});
+  const { ref:refContact, inView:inViewContact} = useInView({threshold: 0.44,});
+
+  /*Nav clickHandler*/
+  const clickHandler = (id) => {
+    document.getElementById(id).scrollIntoView({behavior: "smooth"});
+  }
 
   return <>
 
     {/*StarCanvas box*/}
-    <div className="relative z-0">        
+    <div id="hero" ref={refHero} className="relative z-0">        
       <StarCanvas/>
-      <Hero/>
+      <Hero  inView={inViewHero}/>
     </div>
-    <Projects/>
-    <div className="mx-auto relative max-w-screen-xl z-0">
-    <img className="hue-rotate-30 absolute inset-0 z-[-1] lg:p-10" src="planet.webp" alt="planet"/>
-      <Experience/>
-      </div>
 
-    <div className="relative z-0">
-      {/*hay que jugar con object-cover y h-[1000px] para adaptarlo bien a responsive*/}
-       <img className="object-cover h-[750px] hue-rotate-30 absolute inset-0 z-[-1]" src="footer.webp" alt="footer"/>
-      <Contact/>
+    <div id="projects" ref={refProjects}>
+      <Projects inView={inViewProjects}/>
     </div>
-    <Navbar/>
+
+    <div id="experience" ref={refExperience} className="mx-auto relative max-w-screen-xl z-0">
+      <img className="hue-rotate-30 absolute inset-0 z-[-1] lg:p-10" src="planet1.webp" alt="planet"/>
+      <Experience inView={inViewExperience}/>
+    </div>
+
+    <div id="contact" ref={refContact} className="relative z-0">
+      <img className="object-cover h-[750px] hue-rotate-30 absolute inset-0 z-[-1]" src="footer1.webp" alt="footer"/>
+      <Contact inView={inViewContact}/>
+    </div>
+
+    <Navbar clickHandler={{clickHandler}} inView={[inViewHero, inViewProjects, inViewExperience, inViewContact]}/>
+
   </>
 }
 
-export default App
+export default App;
