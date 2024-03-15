@@ -23,7 +23,7 @@ const Projects = () => {
           <div className="flex flex-col bg-purple-700/10 backdrop-blur-sm p-4 justify-between leading-normal py-5 w-auto">
             <div className="mb-8">
               <div className="text-white font-bold text-xl mb-2">3D Website Portfolio</div>
-              <p className="text-gray-400 max-w-[470px] items-center justify-center font-light text-lg leading-6 text-left">Sitio Web donde la página principal es una escena 3D interactiva y esta compuesta de cuatro puntos de interés. El formulario de Contacto posee un objeto 3D que responde a los input del usuario.</p>
+              <p className="text-gray-400 max-w-[470px] items-center justify-center font-light text-lg leading-6 text-left">Sitio Web donde la página principal es una escena 3D interactiva y esta compuesta de cuatro puntos de interés. El formulario de Contacto posee un objeto 3D que responde a los inputs del usuario.</p>
             </div>
             <div className="flex">
               <span className="inline-block hover:text-red-500 bg-purple-950/30 rounded-full px-3 py-1 text-sm font-medium text-purple-300 mr-2 mb-2">#react</span>
@@ -63,7 +63,7 @@ const Projects = () => {
           <div className="flex flex-col bg-purple-700/10 backdrop-blur-sm p-5 justify-between leading-normal py-5 w-auto">
             <div className="mb-8">
               <div className="text-white font-bold text-xl mb-2">Landing Page</div>
-              <p className="text-gray-400 max-w-[470px] items-center justify-center font-light text-lg leading-6 text-left">Sitio web con Carrusel de imágenes hecho en Flowbite. Está compuesto por 9 páginas con diferentes servicios y el Formulario de Contacto está hecho con SmtpJS y reCAPTCHA v2.</p>
+              <p className="text-gray-400 max-w-[470px] items-center justify-center font-light text-lg leading-6 text-left">Sitio Web con Carrusel de imágenes hecho en Flowbite. Está compuesto por 9 páginas con diferentes servicios y el Formulario de Contacto está hecho con SmtpJS y reCAPTCHA v2.</p>
             </div>
             <div className="flex gap-x-1">
               <span className="inline-block hover:text-red-500 bg-purple-950/30 rounded-full px-2 py-1 text-sm font-medium text-purple-300 mr-2 mb-2">#react</span>
@@ -92,7 +92,7 @@ const Projects = () => {
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2 text-white">3D Website Portfolio</div>
           <p className="text-gray-400 font-light text-lg leading-6">
-          Sitio Web donde la página principal es una escena 3D interactiva y esta compuesta de cuatro puntos de interés. El formulario de Contacto posee un objeto 3D que responde a los input del usuario.
+          Sitio Web donde la página principal es una escena 3D interactiva y esta compuesta de cuatro puntos de interés. El formulario de Contacto posee un objeto 3D que responde a los inputs del usuario.
           </p>
         </div>
         <div className="justify-center sm:justify-start px-4 pt-4 pb-2 flex">
@@ -141,7 +141,7 @@ const Projects = () => {
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2 text-white">Landing Page</div>
           <p className="text-gray-400 font-light text-lg leading-6">
-            Sitio web con Carrusel de imágenes hecho en Flowbite. Está compuesto por 9 páginas con diferentes servicios y el Formulario de Contacto está hecho con SmtpJS y reCAPTCHA v2.
+            Sitio Web con Carrusel de imágenes hecho en Flowbite. Está compuesto por 9 páginas con diferentes servicios y el Formulario de Contacto está hecho con SmtpJS y reCAPTCHA v2.
           </p>
         </div>
         <div className="justify-center sm:justify-start px-4 pt-4 pb-2 flex">
