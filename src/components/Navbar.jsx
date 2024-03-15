@@ -1,10 +1,9 @@
 const Navbar = (props) => {
-  //Props declaration
+  //Props validation for observer
   const parentProps = props;
 
   const inView = parentProps.inView;
   const clickHandler = parentProps.clickHandler.clickHandler;
-  console.log(inView[0])
 
   return <>
     <nav className="flex flex-col items-center xl:justify-center gap-y-4 fixed h-max bottom-0 mt-auto xl:right-[2%] z-[1000] top-0 w-full xl:w-16 xl:max-w-md xl:h-screen px-5 sm:px-10 xl:px-0">
