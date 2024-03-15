@@ -32,12 +32,12 @@ function App() {
     </div>
 
     <div id="experience" ref={refExperience} className="mx-auto relative max-w-screen-xl z-0">
-      <img className="hue-rotate-30 absolute inset-0 z-[-1] lg:p-10" src="planet1.webp" alt="planet"/>
+      <img className="hue-rotate-30 absolute inset-0 z-[-1] lg:p-10" src="planet.webp" alt="planet"/>
       <Experience inView={inViewExperience}/>
     </div>
 
     <div id="contact" ref={refContact} className="relative z-0">
-      <img className="object-cover h-[750px] hue-rotate-30 absolute inset-0 z-[-1]" src="footer1.webp" alt="footer"/>
+      <img className="object-cover h-[750px] hue-rotate-30 absolute inset-0 z-[-1]" src="footer.webp" alt="footer"/>
       <Contact inView={inViewContact}/>
     </div>
 
