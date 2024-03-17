@@ -10,8 +10,8 @@ function App() {
 
   /*Intersection Observer*/
   const { ref:refHero, inView:inViewHero} = useInView({threshold: 0.55,});
-  const { ref:refProjects, inView:inViewProjects} = useInView({threshold: 0.3,});
-  const { ref:refExperience, inView:inViewExperience} = useInView({threshold: 0.4,});
+  const { ref:refProjects, inView:inViewProjects} = useInView({threshold: 0.2,});
+  const { ref:refExperience, inView:inViewExperience} = useInView({threshold: 0.3,});
   const { ref:refContact, inView:inViewContact} = useInView({threshold: 0.44,});
 
   /*Nav clickHandler*/
