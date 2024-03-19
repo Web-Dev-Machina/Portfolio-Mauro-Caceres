@@ -9,7 +9,7 @@ const Hero = () => {
 
         <div className="py-48 z-[1]">
           <div className="text-center md:text-left">
-            <h1 className="font-poppins font-semibold text-[40px] sm:text-[50px] md:text-[45px] lg:text-[60px] xl:text-[65px] text-white leading-[75px] lg:leading-[100px]">
+            <h1 className="font-poppins font-semibold text-[40px] sm:text-[50px] md:text-[45px] lg:text-[60px] xl:text-[65px] text-white leading-[50px] sm:leading-[60px] lg:leading-[80px]">
               ¡Hola! Soy
               <br/>
               <TypeAnimation className='red-glow'
