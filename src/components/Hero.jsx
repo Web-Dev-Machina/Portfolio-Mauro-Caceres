@@ -2,6 +2,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
     return <>
+    <main>
     {/* responsive img */}
     <img src="user.webp" alt="user" className="top-5 absolute w-[400px] h-[650px] md:w-0 md:h-0 -z-5 opacity-10" />
 
@@ -31,7 +32,7 @@ const Hero = () => {
             <p className=" max-w-[470px] md:max-w-[550px] mt-5 text-white font-light text-lg leading-6">
               Mi nombre es Mauro Cáceres.
               <br/>
-              Soy Desarrollador Full-Stack en Argentina.
+              Soy Desarrollador Front-End en Argentina.
               <br/>
               Actualmente creo Sitios Web como Freelancer.
             </p>
@@ -42,9 +43,11 @@ const Hero = () => {
               <a className='cursor-pointer' aria-label="Go to my Linkedin" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mauro-ezequiel-c%C3%A1ceres-4098669b/">
                 <div className="fa-brands fa-linkedin red-glow bg-purple-700/10 text-3xl rounded-full p-4 px-5"></div>
               </a>
-              <a className='cursor-pointer' aria-label="Go to my Whatsapp" target="_blank" rel="noopener noreferrer" href="https://wa.me/+541121559220?text=!Hola¡%20Vi%20tu%20Sitio%20Web%20y%20quiero%20hacerte%20una%20consulta">
+              {/*
+              <a className='cursor-pointer' aria-label="Go to my Whatsapp" target="_blank" rel="noopener noreferrer" href="https://wa.me/+5411XXXXXXXX?text=!Hola¡%20Vi%20tu%20Sitio%20Web%20y%20quiero%20hacerte%20una%20consulta">
                 <div className="fa-brands fa-whatsapp red-glow bg-purple-700/10 text-3xl rounded-full p-4 px-5"></div>
               </a>
+              */}
               <a className='cursor-pointer' aria-label="Send me an Email" target="_blank" rel="noopener noreferrer" href="mailto:main.webexmachina@gmail.com">
                 <div className="fa-regular fa-envelope red-glow bg-purple-700/10 text-3xl rounded-full p-4 px-5"></div>
               </a>
@@ -60,6 +63,7 @@ const Hero = () => {
           <div className="hidden md:inline-block rounded-full bg-purple-600 absolute w-96 h-96 blur-[300px] bottom-0 left-0"/>
         </div>
       </section>
+      </main>
       </>;
   };
   

@@ -61,9 +61,11 @@ const Contact = () => {
               <a className='cursor-pointer' aria-label="Go to my Linkedin" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mauro-ezequiel-c%C3%A1ceres-4098669b/">
                 <div className="fa-brands fa-linkedin red-glow bg-purple-700/10 text-3xl rounded-full p-4 px-5"></div>
               </a>
-              <a className='cursor-pointer' aria-label="Go to my Whatsapp" target="_blank" rel="noopener noreferrer" href="https://wa.me/+541121559220?text=!Hola¡%20Vi%20tu%20Sitio%20Web%20y%20quiero%20hacerte%20una%20consulta">
+              {/*
+              <a className='cursor-pointer' aria-label="Go to my Whatsapp" target="_blank" rel="noopener noreferrer" href="https://wa.me/+5411XXXXXXXX?text=!Hola¡%20Vi%20tu%20Sitio%20Web%20y%20quiero%20hacerte%20una%20consulta">
                 <div className="fa-brands fa-whatsapp red-glow bg-purple-700/10 text-3xl rounded-full p-4 px-5"></div>
               </a>
+              */}
               <a className='cursor-pointer' aria-label="Send me an Email" target="_blank" rel="noopener noreferrer" href="mailto:main.webexmachina@gmail.com">
                 <div className="fa-regular fa-envelope red-glow bg-purple-700/10 text-3xl rounded-full p-4 px-5"></div>
               </a>
