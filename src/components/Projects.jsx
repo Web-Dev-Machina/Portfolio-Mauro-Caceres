@@ -6,7 +6,7 @@ const Projects = () => {
           Mis <span className="text-red-500 red-glow">Proyectos</span>
         </h2>
         <p className="mx-auto md:mx-0 text-white font-light text-lg leading-6 max-w-[470px] md:max-w-[550px] text-center md:text-left">
-          En 2020 estudié Desarrollo Web en Coderhouse. Hoy en día sigo perfeccionando el uso de herramientas mediante estos proyectos.
+          En 2021 estudié Desarrollo Web en Coderhouse. Hoy en día sigo perfeccionando el uso de herramientas mediante estos proyectos.
         </p>
       </div>
       
