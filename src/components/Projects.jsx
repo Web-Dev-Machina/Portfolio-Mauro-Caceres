@@ -141,7 +141,7 @@ const Projects = () => {
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2 text-white">Landing Page</div>
           <p className="text-gray-400 font-light text-lg leading-6">
-            Sitio Web con Carrusel de imágenes hecho en Flowbite. Está compuesto por 9 páginas con diferentes servicios y el formulario de Contacto está hecho con SmtpJS y reCAPTCHA v2.
+            Sitio Web con Carrusel de imágenes hecho en Flowbite. Está compuesto por 9 páginas con diferentes servicios y el formulario de Contacto está hecho con SmtpJS y reCAPTCHA v2.<br/> <br/>
           </p>
         </div>
         <div className="justify-center sm:justify-start px-4 pt-4 pb-2 flex">
