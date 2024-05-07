@@ -1,7 +1,7 @@
 const Experience = () => {
   return <>
   
-  <section className="px-4 pb-20 sm:pb-44">
+  <section loading="lazy" className="px-4 pb-20 sm:pb-44">
 
     <div className="flex max-w-screen-xl mx-auto">
     <h2 className="mx-auto md:mx-0 pt-32 sm:pt-0 pb-20 sm:pb-56 font-poppins font-semibold text-[30px] sm:text-[40px] md:text-[33px] lg:text-[40px] xl:text-[50px] text-white leading-[75px] lg:leading-[100px]">

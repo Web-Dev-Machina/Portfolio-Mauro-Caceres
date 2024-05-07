@@ -14,7 +14,7 @@ const Projects = () => {
       <div className="hidden sm:flex xl:hidden flex-col justify-between gap-y-12 items-center max-w-screen-xl mx-auto">
 
         <div className="flex rounded-md overflow-hidden mx-auto card-glow z-0">
-          <div className="img-resp-child flex flex-row items-center justify-center h-auto w-[350px] md:w-[400px] lg:[500px] bg-cover text-center bg-center overflow-hidden" style={{backgroundImage: "url('card1.webp')"}}>
+          <div loading="lazy" className="img-resp-child flex flex-row items-center justify-center h-auto w-[350px] md:w-[400px] lg:[500px] bg-cover text-center bg-center overflow-hidden" style={{backgroundImage: "url('card1.webp')"}}>
             <div className="button-child gap-12 hidden">
               <a aria-label="Go to Github repository" target="_blank" rel="noopener noreferrer" href="https://github.com/Web-ExMachina/Portfolio-Three.js-2"><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
               <a aria-label="Go to Website" target="_blank" rel="noopener noreferrer" href="https://3d-website-react.netlify.app"><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
@@ -34,7 +34,7 @@ const Projects = () => {
         </div>
 
         <div className="flex rounded-md overflow-hidden mx-auto card-glow z-0">
-          <div className="img-resp-child flex flex-row items-center justify-center gap-12 h-auto w-[350px] md:w-[400px] lg:[500px] bg-cover text-center bg-center overflow-hidden" style={{backgroundImage: "url('card2.webp')"}}>
+          <div loading="lazy" className="img-resp-child flex flex-row items-center justify-center gap-12 h-auto w-[350px] md:w-[400px] lg:[500px] bg-cover text-center bg-center overflow-hidden" style={{backgroundImage: "url('card2.webp')"}}>
             <div className="button-child gap-12 hidden">
               <a aria-label="Go to Github repository" target="_blank" rel="noopener noreferrer" href="https://github.com/Web-ExMachina/CV-Caceres-Mauro"><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
               <a aria-label="Go to Website" target="_blank" rel="noopener noreferrer" href="https://maurocaceres.netlify.app"><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
@@ -54,7 +54,7 @@ const Projects = () => {
         </div>
 
         <div className="flex rounded-md overflow-hidden mx-auto card-glow z-0">
-          <div className="img-resp-child flex flex-row items-center justify-center gap-12 h-auto w-[350px] md:w-[400px] lg:[500px] bg-cover text-center bg-center overflow-hidden" style={{backgroundImage: "url('card3.webp')"}}>
+          <div loading="lazy" className="img-resp-child flex flex-row items-center justify-center gap-12 h-auto w-[350px] md:w-[400px] lg:[500px] bg-cover text-center bg-center overflow-hidden" style={{backgroundImage: "url('card3.webp')"}}>
             <div className="button-child gap-12 hidden">
               <a aria-label="Go to Github repository" target="_blank" rel="noopener noreferrer" href="https://github.com/FGA-Consultora/FGA"><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
               <a aria-label="Go to Website" target="_blank" rel="noopener noreferrer" href="https://www.fgaconsultora.com.ar/"><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
@@ -86,7 +86,7 @@ const Projects = () => {
               <a aria-label="Go to Website" target="_blank" rel="noopener noreferrer" href="https://3d-website-react.netlify.app"><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
             </div>
 
-            <img className="absolute top-0 img-child" src="card1.webp" alt="Portfolio-3D"/>
+            <img loading="lazy" className="absolute top-0 img-child" src="card1.webp" alt="Portfolio-3D"/>
           </div>
 
         <div className="px-6 py-4">

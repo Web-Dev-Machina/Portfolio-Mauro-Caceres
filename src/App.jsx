@@ -14,7 +14,7 @@ function App() {
   const { ref:refExperience, inView:inViewExperience} = useInView({threshold: 0.3,});
   const { ref:refContact, inView:inViewContact} = useInView({threshold: 0.44,});
 
-  /*Nav clickHandler*/
+  /*Nav-scroll clickHandler*/
   const clickHandler = (id) => {
     document.getElementById(id).scrollIntoView({behavior: "smooth"});
   }
@@ -34,12 +34,12 @@ function App() {
     </div>
 
     <div id="experience" ref={refExperience} className="mx-auto relative max-w-screen-xl z-0">
-      <img className="hue-rotate-30 absolute inset-0 z-[-1] lg:p-10" src="planet.webp" alt="planet"/>
+      <img loading="lazy" className="hue-rotate-30 absolute inset-0 z-[-1] lg:p-10" src="planet.webp" alt="planet"/>
       <Experience inView={inViewExperience}/>
     </div>
 
     <div id="contact" ref={refContact} className="relative z-0">
-      <img className="object-cover h-[750px] hue-rotate-30 absolute inset-0 z-[-1]" src="footer.webp" alt="footer"/>
+      <img loading="lazy" className="object-cover h-[750px] hue-rotate-30 absolute inset-0 z-[-1]" src="footer.webp" alt="footer"/>
       <Contact inView={inViewContact}/>
     </div>
 
