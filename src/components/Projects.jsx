@@ -23,7 +23,7 @@ const Projects = () => {
           <div className="flex flex-col bg-purple-700/10 backdrop-blur-sm p-4 justify-between leading-normal py-5 w-auto">
             <div className="mb-8">
               <div className="text-white font-bold text-xl mb-2">3D Website Portfolio</div>
-              <p className="text-gray-400 max-w-[470px] items-center justify-center font-light text-lg leading-6 text-left">Sitio Web donde la página principal es una escena 3D interactiva y esta compuesta de cuatro puntos de interés. El formulario de Contacto posee un objeto 3D que responde a los inputs del usuario.</p>
+              <p className="text-white max-w-[470px] items-center justify-center font-light text-lg leading-6 text-left">Sitio Web donde la página principal es una escena 3D interactiva y esta compuesta de cuatro puntos de interés. El formulario de Contacto posee un objeto 3D que responde a los inputs del usuario.</p>
             </div>
             <div className="flex">
               <span className="inline-block hover:text-red-500 bg-purple-950/30 rounded-full px-3 py-1 text-sm font-medium text-purple-300 mr-2 mb-2">#react</span>
@@ -43,7 +43,7 @@ const Projects = () => {
           <div className="flex flex-col bg-purple-700/10 backdrop-blur-sm p-3 justify-between leading-normal py-5 w-auto">
             <div className="mb-8">
               <div className="text-white font-bold text-xl mb-2">Portfolio Personal</div>
-              <p className="text-gray-400 max-w-[470px] items-center justify-center font-light text-lg leading-6 text-left">Sitio de diseño OnePage con fondo 3D mediante Three.js y react-three/fiber. El formulario está echo con EmailjS y Sonner para la notificación de envío</p>
+              <p className="text-white max-w-[470px] items-center justify-center font-light text-lg leading-6 text-left">Sitio de diseño OnePage con fondo 3D mediante Three.js y react-three/fiber. El formulario está echo con EmailjS y Sonner para la notificación de envío</p>
             </div>
             <div className="flex gap-x-1.5">
               <span className="inline-block hover:text-red-500 bg-purple-950/30 rounded-full px-3 py-1 text-sm font-medium text-purple-300 mr-2 mb-2">#react</span>
@@ -63,7 +63,7 @@ const Projects = () => {
           <div className="flex flex-col bg-purple-700/10 backdrop-blur-sm p-5 justify-between leading-normal py-5 w-auto">
             <div className="mb-8">
               <div className="text-white font-bold text-xl mb-2">Landing Page</div>
-              <p className="text-gray-400 max-w-[470px] items-center justify-center font-light text-lg leading-6 text-left">Sitio Web con Carrusel de imágenes hecho en Flowbite. Está compuesto por 9 páginas con diferentes servicios y el formulario de Contacto está hecho con SmtpJS y reCAPTCHA v2.</p>
+              <p className="text-white max-w-[470px] items-center justify-center font-light text-lg leading-6 text-left">Sitio Web con Carrusel de imágenes hecho en Flowbite. Está compuesto por 9 páginas con diferentes servicios y el formulario de Contacto está hecho con SmtpJS y reCAPTCHA v2.</p>
             </div>
             <div className="flex gap-x-1">
               <span className="inline-block hover:text-red-500 bg-purple-950/30 rounded-full px-2 py-1 text-sm font-medium text-purple-300 mr-2 mb-2">#react</span>
