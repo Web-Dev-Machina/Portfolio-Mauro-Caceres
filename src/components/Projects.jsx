@@ -91,7 +91,7 @@ const Projects = () => {
 
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2 text-white">3D Website Portfolio</div>
-          <p className="text-gray-400 font-light text-lg leading-6">
+          <p className="text-white font-light text-lg leading-6">
           Sitio Web donde la página principal es una escena 3D interactiva y esta compuesta de cuatro puntos de interés. El formulario de Contacto posee un objeto 3D que responde a los inputs del usuario.
           </p>
         </div>
@@ -116,7 +116,7 @@ const Projects = () => {
 
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2 text-white">Personal Portfolio</div>
-          <p className="text-gray-400 font-light text-lg leading-6">
+          <p className="text-white font-light text-lg leading-6">
           Sitio de diseño OnePage con fondo 3D mediante Three.js y react-three/fiber. El formulario está echo con EmailjS y Sonner para notificar el envío por medio de un toast. <br/><br/>
           </p>
         </div>
@@ -140,7 +140,7 @@ const Projects = () => {
 
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2 text-white">Landing Page</div>
-          <p className="text-gray-400 font-light text-lg leading-6">
+          <p className="text-white font-light text-lg leading-6">
             Sitio Web con Carrusel de imágenes hecho en Flowbite. Está compuesto por 9 páginas con diferentes servicios y el formulario de Contacto está hecho con SmtpJS y reCAPTCHA v2.<br/> <br/>
           </p>
         </div>
