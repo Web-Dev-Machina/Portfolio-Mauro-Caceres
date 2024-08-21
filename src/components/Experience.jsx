@@ -160,6 +160,7 @@ const Experience = () => {
               <img className="mx-auto" src="https://skillicons.dev/icons?i=nextjs" alt="nextjs" />
               <p className="mx-auto">NextJS</p>
             </div> 
+            
             */}
 
           </div>
