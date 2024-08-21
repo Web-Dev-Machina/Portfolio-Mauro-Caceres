@@ -43,26 +43,26 @@ const Experience = () => {
               <img className="mx-auto" src="https://skillicons.dev/icons?i=tailwind" alt="tailwind" />
               <p className="mx-auto">Tailwind</p>
             </div>
-
+{/* 
             <div className="mx-auto">
               <img className="mx-auto" src="https://skillicons.dev/icons?i=sass" alt="sass" />
               <p className="mx-auto">SASS</p>
-            </div>
+            </div> */}
 
             <div className="mx-auto">
               <img className="mx-auto" src="https://skillicons.dev/icons?i=vite" alt="vite" />
               <p className="mx-auto">Vite</p>
             </div>
 
-            <div className="mx-auto">
+            {/* <div className="mx-auto">
               <img className="mx-auto" src="https://skillicons.dev/icons?i=threejs" alt="threejs" />
               <p className="mx-auto">Threejs</p>
-            </div>
+            </div> */}
 
-            <div className="mx-auto">
+            {/* <div className="mx-auto">
               <img className="mx-auto" src="https://skillicons.dev/icons?i=bootstrap" alt="bootstrap" />
               <p className="mx-auto">Bootstrap</p>
-            </div>
+            </div> */}
 
           </div>
         </div>  
@@ -83,20 +83,20 @@ const Experience = () => {
               <p className="mx-auto">NodeJS</p>
             </div>
 
-            <div className="mx-auto">
+            {/* <div className="mx-auto">
               <img className="mx-auto" src="https://skillicons.dev/icons?i=firebase" alt="firebase" />
               <p className="mx-auto">Firebase</p>
-            </div>
+            </div> */}
 
             <div className="mx-auto">
               <img className="mx-auto" src="https://skillicons.dev/icons?i=mongodb" alt="mongodb" />
               <p className="mx-auto">MongoDB</p>
             </div>
 
-            <div className="mx-auto">
+            {/* <div className="mx-auto">
               <img className="mx-auto" src="https://skillicons.dev/icons?i=mysql" alt="mysql" />
               <p className="mx-auto">MySQL</p>
-            </div>
+            </div> */}
 
             </div>
         </div>
@@ -137,10 +137,10 @@ const Experience = () => {
               <p className="mx-auto">VSCode</p>
             </div>
 
-            <div className="mx-auto">
+            {/* <div className="mx-auto">
               <img className="mx-auto" src="https://skillicons.dev/icons?i=sublime" alt="sublime" />
               <p className="mx-auto">Sublime</p>
-            </div>
+            </div> */}
 
           </div>
         </div> 
@@ -156,10 +156,10 @@ const Experience = () => {
               <p className="mx-auto">Typescript</p>
             </div>
 
-            <div className="mx-auto">
+            {/* <div className="mx-auto">
               <img className="mx-auto" src="https://skillicons.dev/icons?i=nextjs" alt="nextjs" />
               <p className="mx-auto">NextJS</p>
-            </div>
+            </div> */}
 
           </div>
         </div> 
