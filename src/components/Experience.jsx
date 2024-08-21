@@ -43,7 +43,7 @@ const Experience = () => {
               <img className="mx-auto" src="https://skillicons.dev/icons?i=tailwind" alt="tailwind" />
               <p className="mx-auto">Tailwind</p>
             </div>
-{/* 
+            {/* 
             <div className="mx-auto">
               <img className="mx-auto" src="https://skillicons.dev/icons?i=sass" alt="sass" />
               <p className="mx-auto">SASS</p>
