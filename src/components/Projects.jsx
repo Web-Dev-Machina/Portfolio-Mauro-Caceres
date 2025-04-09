@@ -56,7 +56,7 @@ const Projects = () => {
         <div className="flex rounded-md overflow-hidden mx-auto card-glow z-0">
           <div loading="lazy" className="img-resp-child flex flex-row items-center justify-center gap-12 h-auto w-[350px] md:w-[400px] lg:[500px] bg-cover text-center bg-center overflow-hidden" style={{backgroundImage: "url('card3.webp')"}}>
             <div className="button-child gap-12 hidden">
-              <a aria-label="Go to Github repository" target="_blank" rel="noopener noreferrer" href="https://github.com/FGA-Consultora/FGA"><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
+              <a aria-label="Go to Github repository" target="_blank" rel="noopener noreferrer" href="https://github.com/Web-Dev-Machina/FGA-Consultora"><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
               <a aria-label="Go to Website" target="_blank" rel="noopener noreferrer" href="https://fgaconsultora.netlify.app/"><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
             </div>
           </div>
