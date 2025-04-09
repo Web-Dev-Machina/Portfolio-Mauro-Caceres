@@ -131,8 +131,8 @@ const Projects = () => {
         <div className="relative">
 
           <div className="flex justify-center gap-x-10 items-center py-14">
-            <a aria-label="Go to Github repository" target="_blank" rel="noopener noreferrer" href="https://github.com/FGA-Consultora/FGA"><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
-            <a aria-label="Go to Website" target="_blank" rel="noopener noreferrer" href="https://www.fgaconsultora.com.ar/"><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
+            <a aria-label="Go to Github repository" target="_blank" rel="noopener noreferrer" href="https://github.com/Web-Dev-Machina/FGA-Consultora"><div className="fa-brands fa-github text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
+            <a aria-label="Go to Website" target="_blank" rel="noopener noreferrer" href="https://fgaconsultora.netlify.app/"><div className="fa-solid fa-play text-red-500 hover:text-white bg-purple-950/70 backdrop-blur-sm text-3xl rounded-full p-4 px-5"></div></a>
           </div>
 
           <img className="absolute top-0 img-child" src="card3.webp" alt="FGA Consulting"/>
