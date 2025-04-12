@@ -37,7 +37,7 @@ const Hero = () => {
               Actualmente creo Sitios Web como Freelancer.
             </p>
             <div className='text-red-500 space-x-3 pt-10'>
-              <a className='cursor-pointer' aria-label="Go to my Github" target="_blank" rel="noopener noreferrer" href="https://github.com/Web-ExMachina">
+              <a className='cursor-pointer' aria-label="Go to my Github" target="_blank" rel="noopener noreferrer" href="https://github.com/Web-Dev-Machina">
                 <div className="fa-brands fa-github red-glow bg-purple-700/10 text-3xl rounded-full p-4 px-5"></div>
               </a>
               <a className='cursor-pointer' aria-label="Go to my Linkedin" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mauro-ezequiel-c%C3%A1ceres-4098669b/">
